@@ -4,6 +4,7 @@ Feature: Test LMS apis program module with rest assured library and cucumber fra
 
   @POST
   Scenario: LMS_api's POST test
+  When  User send the HTTPsPOST request to server with the payload from "<sheetname>" and <rownumber>
     Given User is provided with the BaseUri and BasePath and payload
     When User send the POST request to server with the payload
     Then User validates the response

@@ -15,7 +15,7 @@ public class Config_Reader {
 		prop=new Properties();
 		try
 		{
-			FileInputStream ip=new FileInputStream("src\\test\\resources\\utilities\\config.properties");
+			FileInputStream ip=new FileInputStream("src\\test\\resources\\configFile\\config.properties");
 			prop.load(ip);
 		}
 		catch(FileNotFoundException e)
@@ -30,55 +30,92 @@ public class Config_Reader {
 	
 	
 	
-	public String baseUri()
+	public String baseUrl()
 	{
-		String uri = prop.getProperty("BaseUri");
-		System.out.println(uri);
-		if(uri!=null)
+		String url = prop.getProperty("BaseUrl");
+		System.out.println(url);
+		if(url!=null)
 		{
-			return uri;
+			return url;
 		}else
 		{
 			System.out.println("uri is not mentioned in config properties");
 		}	
-		return uri;	
+		return url;	
 	}
 	
-	public static String endpoint()
+	public static String postProgramEndpoint()
 	{
-		String getEndPoint = prop.getProperty("Endpoint");
+		String postEndPoint = prop.getProperty("PostProgramEndpoint");
 		
-		if(getEndPoint!=null)
-		{
-			return getEndPoint;
-		}else
-		{
-			System.out.println("Endpoint is not mentioned in config properties");
-		}	return getEndPoint;	
-	}
-	
-	public static String postReqEndpoint()
-	{   
-		
-		String postEndPoint=prop.getProperty("PostEndpoint");
 		if(postEndPoint!=null)
 		{
 			return postEndPoint;
 		}else
 		{
-			System.out.println("Endpoint is not mentioned in config properties");
+			System.out.println("PostProgramEndpoint is not mentioned in config properties");
 		}	return postEndPoint;	
 	}
 	
-	public static String putReqEndpoint() {
-		String putEndPoint = prop.getProperty("PutEndpoint");
-		if (putEndPoint != null)
-			return putEndPoint;
-		else
-			throw new RuntimeException("putEndPoint not specified in the Config.properties file");
+	public static String getAllEndpoint()
+	{   
+		
+		String getAllPoint=prop.getProperty("GetAllEndpoint");
+		if(getAllPoint!=null)
+		{
+			return getAllPoint;
+		}else
+		{
+			System.out.println("GetAllEndpoint is not mentioned in config properties");
+		}	return getAllPoint;	
 	}
 	
-	public  String excelpath()
+	public static String getOneProgramIdEndpoint() {
+		String getIdEndPoint = prop.getProperty("GetOneProgramIdEndpoint");
+		if (getIdEndPoint != null)
+			return getIdEndPoint;
+		else
+			throw new RuntimeException("GetOneProgramIdEndpoint not specified in the Config.properties file");
+	}
+	
+	public static String putProgramByProgramNameEndpoint() {
+		String putProgramNamePoint = prop.getProperty("PutProgramByProgramNameEndpoint");
+		if (putProgramNamePoint != null)
+			return putProgramNamePoint;
+		else
+			throw new RuntimeException("GetOneProgramIdEndpoint not specified in the Config.properties file");
+	}
+	public static String putProgramByProgramIdEndpoint() {
+		String putbyprogramIdEndPoint = prop.getProperty("PutProgramByProgramIdEndpoint");
+		if ( putbyprogramIdEndPoint != null)
+			return  putbyprogramIdEndPoint;
+		else
+			throw new RuntimeException("GetOneProgramIdEndpoint not specified in the Config.properties file");
+	}
+	public static String deleteprogramByidEndpoint() {
+		String deletebyidEndPoint = prop.getProperty("DeleteProgramByProgramIdEndpoint");
+		if (deletebyidEndPoint != null)
+			return deletebyidEndPoint;
+		else
+			throw new RuntimeException("GetOneProgramIdEndpoint not specified in the Config.properties file");
+	}
+	public static String deleteprogramBynameEndpoint() {
+		String deletebynameEndPoint = prop.getProperty("DeleteProgramByProgramNameEndpoint");
+		if (deletebynameEndPoint != null)
+			return deletebynameEndPoint;
+		else
+			throw new RuntimeException("deletebynameEndPoint not specified in the Config.properties file");
+	}
+//	public static String getOneProgramIdEndpoint() {
+//		String getIdEndPoint = prop.getProperty("GetOneProgramIdEndpoint");
+//		if (getIdEndPoint != null)
+//			return getIdEndPoint;
+//		else
+//			throw new RuntimeException("GetOneProgramIdEndpoint not specified in the Config.properties file");
+//	}
+	
+	
+	public static String excelpath()
 	{
 		String excelpath=prop.getProperty("excelpath");
 		if(excelpath != null)

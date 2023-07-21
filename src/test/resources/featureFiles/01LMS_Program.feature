@@ -1,7 +1,8 @@
 
 @Program_module
 Feature: Test LMS api program module with BaseUrl and Endpoints
-  
+  Background:
+  Given User sets Authoization to "No Auth"
 
   @POST_Positive
   Scenario Outline: validating User able to create a program with valid endpoint and Payload
@@ -9,28 +10,28 @@ Feature: Test LMS api program module with BaseUrl and Endpoints
     When  User send the HTTPsPOST request to server with the payload from "<sheetname>" and <rownumber>
     Then  User validates the response with status code, response time, header
     Examples:
-			| sheetname |rowno|
-			| data			| 0   |
+			| sheetname |rownumber|
+			| user		| 0   |
 			
 			
 	@POST_NegativeByExistingProgramName
   Scenario Outline: validating User able to create a program with valid endpoint and existing ProgramName
     Given User is provided with the BaseUrl and endpoint with existing ProgramName to create a POST Request
-    When User send the HTTPsPOST request to server with the payload from "<sheetname>" and <rownumber>
+    When User send the HTTPsPOST request to server with the payload from "<sheetname>" and <rownumber> with existing Programname
     Then User validates the response with status code, response time, header
     Examples:
-			| sheetname |rowno|
-			| data			| 0   |		
+			| sheetname |rownumber|
+			| user			| 0  |		
 			
 
  @POST_NegativeByMissingProgramName
   Scenario Outline: validating User able to create a program with valid endpoint and missing ProgramName Field
-    Given User is provided with the BaseUrl and endpoint with missing ProgramName to create a POST Request
+    Given User is provided with the BaseUrl and endpoint with missing ProgramName to create a POST Request with missing programname
     When  User send the HTTPsPOST request to server with the payload from "<sheetname>" and <rownumber>
-    Then  User validates the response with status code, response time, header
+    Then  User validates the response with status code 201, response time, header
     Examples:
-			| sheetname |rowno|
-			| data			| 0   |			
+			| sheetname |rownumber|
+			| user			| 0   |			
 
   @GET_PositiveAllPrograms
   Scenario: validating User able to retrieve all programs with valid endpoint
@@ -101,7 +102,7 @@ Feature: Test LMS api program module with BaseUrl and Endpoints
     When User send the HTTPsDELETE request with invalid programName
     Then User validates the response with status code, response time, header
     
-   @DELETE_PositveValidProgramID
+   @DELETE_PositIveValidProgramID
   Scenario: validating user able to delete a program with valid programId 
     Given User is provided with the BaseUrl and the Endpoints to delete a program with valid programId 
     When User send the HTTPsDELETE request with valid programId
@@ -110,6 +111,6 @@ Feature: Test LMS api program module with BaseUrl and Endpoints
   @DELETE_NegativeWithInvalidProgramID
   Scenario: validating user able to delete a program with valid programId 
     Given User is provided with the BaseUrl and the Endpoints to delete a program with valid programId 
-    When User send the HTTPsDELETE request with valid programId
+    When User send the HTTPsDELETE request with invalid programId
     Then User validates the response with status code, response time, header
   
