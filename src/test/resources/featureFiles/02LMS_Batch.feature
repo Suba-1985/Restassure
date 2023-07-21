@@ -1,5 +1,5 @@
 @Batch_module
-Feature: Test LMS api's program module with rest assured library and cucumber framework
+Feature: Test LMS apis program module with rest assured library and cucumber framework
   
 
   @POST
