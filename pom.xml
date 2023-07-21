@@ -36,10 +36,10 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.10.1</version>
-			<!--<configuration>
+			<configuration>
           	<source>1.9</source>
           	<target>1.9</target>
-        	</configuration>-->
+        	</configuration>
 			</plugin>
 			
 			<plugin>
@@ -55,7 +55,7 @@
                     <configuration>
                         <filesets>
                             <fileset>
-                                <directory>Rest_Assure_Hackathon\allure-results</directory>
+                                <directory>Rest_Assure_Hackathon/allure-results</directory>
                             </fileset>
                         </filesets>
                     </configuration>
