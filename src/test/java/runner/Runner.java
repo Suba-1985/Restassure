@@ -17,7 +17,7 @@ monochrome = true,
 plugin = {"pretty",
 		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 		
-		"html:target/cucmberreport",
+		"html:target/cucumber_report",
 		
 		})
 

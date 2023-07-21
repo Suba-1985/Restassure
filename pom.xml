@@ -15,7 +15,7 @@
 			    <version>3.0.0</version>
 	      		<configuration>
 					  <includes>
-							<include>**/Runner.java</include>
+							<include>src/test/java/runner/Runner.java</include>
 						</includes>
             	</configuration>
 		</plugin>      		
