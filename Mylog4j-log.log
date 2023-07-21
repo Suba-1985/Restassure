@@ -157,3 +157,23 @@
 [INFO ]2023-07-21 15:26:07.817 [main]LoggerLoad-*************GET ALL PROGRAMS**********https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/10739
 [INFO ]2023-07-21 15:26:07.834 [main]LoggerLoad-**************retrieve all the programs **************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/allPrograms
 [INFO ]2023-07-21 15:26:07.976 [main]LoggerLoad-*************GET  PROGRAM BY ID**********https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/10730
+[INFO ]2023-07-21 18:18:09.397 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-21 18:18:18.948 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-21 18:18:20.261 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-21 18:18:20.326 [main]LoggerLoad-**************retrieve all the programs **************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/allPrograms
+[INFO ]2023-07-21 18:18:20.827 [main]LoggerLoad-**************retrieve all the programs **************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/allPrograms
+[INFO ]2023-07-21 18:18:21.041 [main]LoggerLoad-*************GET PROGRAMS by valid programid**********https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/10739
+[INFO ]2023-07-21 18:18:21.091 [main]LoggerLoad-**************retrieve all the programs **************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/allPrograms
+[INFO ]2023-07-21 18:18:21.374 [main]LoggerLoad-*************GET  PROGRAM BY invalid ID**********https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/10730
+[INFO ]2023-07-21 18:20:01.904 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-21 18:20:16.710 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-21 18:20:18.155 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-21 18:20:18.236 [main]LoggerLoad-**************retrieve all the programs **************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/allPrograms
+[INFO ]2023-07-21 18:20:18.920 [main]LoggerLoad-**************retrieve all the programs **************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/allPrograms
+[INFO ]2023-07-21 18:20:19.207 [main]LoggerLoad-*************GET PROGRAMS by valid programid**********https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/10739
+[INFO ]2023-07-21 18:20:19.279 [main]LoggerLoad-**************retrieve all the programs **************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/allPrograms
+[INFO ]2023-07-21 18:28:30.868 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-21 18:28:33.155 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-21 18:28:33.179 [main]LoggerLoad-**************retrieve all the programs **************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/allPrograms
+[INFO ]2023-07-21 18:28:33.426 [main]LoggerLoad-**************retrieve all the programs **************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/allPrograms
+[INFO ]2023-07-21 18:28:33.577 [main]LoggerLoad-*************GET PROGRAMS by valid programid**********https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/10739
