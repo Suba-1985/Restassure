@@ -14,10 +14,9 @@ import io.cucumber.junit.CucumberOptions;
 tags= "@positive",
 glue = {"stepDefinition"}, 
 monochrome = true, 
-plugin = {"pretty",
-		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
-		
-		"html:target/cucumber_report",
+plugin = {"pretty","html:target/cucumber.html" ,"json:target/cucumber.json",
+		 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
+		 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
 		
 		})
 
