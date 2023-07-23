@@ -1,9 +1,10 @@
 package utilities;
 
 import java.io.IOException;
+import java.time.LocalDateTime;
+import java.util.List;
 import java.util.Map;
 import java.util.Properties;
-import java.util.List;
 
 
 public class PageUtils {
@@ -24,4 +25,12 @@ public class PageUtils {
 		return arrayinput;			
 
 	}
+	
+	public static String getcurrentDateTime() {
+		LocalDateTime Time = LocalDateTime.now();
+		String date = String.valueOf(Time);
+		return date;
+	}
+	
+	
 }

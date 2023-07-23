@@ -114,9 +114,9 @@ public class Config_Reader {
 			throw new RuntimeException("deletebynameEndPoint not specified in the Config.properties file");
 	}
 	
-	public static String endpointBatchSave() throws IOException
+	public static String createbatchsaveandGetBatchesAllputBatchUpdatebyBatchIdandDeleteBatch() throws IOException
 	{prop=init_prop();
-		String getEndPoint = prop.getProperty("batchsave");
+		String getEndPoint = prop.getProperty("createbatchsaveandGetBatchesAllputBatchUpdatebyBatchIdandDeleteBatch");
 		
 		if(getEndPoint!=null)
 		{
@@ -149,4 +149,44 @@ public class Config_Reader {
 		return excelpath;
 		else throw new RuntimeException("excelpath not specified in the Config.properties file");			
 	}
-}
+	public static String getBatchbyID()
+	{   
+		
+		String getbatchbyid=prop.getProperty("getBatchbyID");
+		if(getbatchbyid!=null)
+		{
+			return getbatchbyid;
+		}else
+		{
+			System.out.println("GetAllEndpoint is not mentioned in config properties");
+		}	return getbatchbyid;	
+	}
+	
+	public static String getBatchbyName()
+	{   
+		
+		String getbatchbyid=prop.getProperty("getBatchbyName");
+		if(getbatchbyid!=null)
+		{
+			return getbatchbyid;
+		}else
+		{
+			System.out.println("GetAllEndpoint is not mentioned in config properties");
+		}	return getbatchbyid;	
+	}
+	
+	
+	public static String getBatchbyProgramId()
+	{   
+		
+		String getbatchbyid=prop.getProperty("getBatchbyProgramId");
+		if(getbatchbyid!=null)
+		{
+			return getbatchbyid;
+		}else
+		{
+			System.out.println("GetAllEndpoint is not mentioned in config properties");
+		}	return getbatchbyid;	
+	}
+	
+	}

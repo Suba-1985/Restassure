@@ -30,13 +30,15 @@ import util_Modules.AProgramModule;
 import utilities.Config_Reader;
 import utilities.ExcelReader;
 import utilities.LoggerLoad;
+import utilities.PageUtils;
 
-public class AProgram_module {
+public class AProgram_module_SD {
 	private static String postURI,programdescription;
 	private static int postprogramID;
 	public  static String programID,programName,postprogramName;
     private static RequestSpecification request;
- 
+    private static String currentTime=PageUtils.getcurrentDateTime();
+    private static String lastModTime=PageUtils.getcurrentDateTime();
     private static Config_Reader configreader=new Config_Reader();
     static Properties prop;
     public static ResponseBody body;
@@ -45,7 +47,9 @@ public class AProgram_module {
     private static AProgramModule program=new AProgramModule();    
     @Given("User sets Authoization to {string}")
     public  void user_sets_authoization_to(String string) {
-    	program.noAuthentication(string);    	
+    	//noAuth=string;	
+		 request = RestAssured.given()
+			.header("Authorization", string).contentType("application/json"); 	
     }
 
 	
@@ -291,10 +295,9 @@ public class AProgram_module {
 	public void user_send_the_httpsput_request_with_valid_program_id(String SheetName, Integer rowno) throws IOException, org.apache.poi.openxml4j.exceptions.InvalidFormatException {
 		
 		System.out.println("value for program id and name  "+postprogramID + postprogramName);	
-		ExcelReader reader = new ExcelReader();
-		String data[]=new String[2];
-		//String description=RandomStringUtils.randomAlphabetic(5);
-		String description="Quality Analyst";
+		ExcelReader reader = new ExcelReader();		
+		String description=RandomStringUtils.randomAlphabetic(5);
+		//String description="Quality Analyst";
 		List<Map<String, String>> testdata;
     	 testdata = reader.getData(Config_Reader.excelpath(), SheetName);
     	
@@ -307,6 +310,8 @@ public class AProgram_module {
 		jsonObject.put("programId", postprogramID);
 		jsonObject.put("programName",postprogramName);
 		jsonObject.put("programStatus", progstatus);
+		jsonObject.put("creationTime", currentTime);
+		jsonObject.put("lastModTime", lastModTime);
 		
 		System.out.println("updateing programdesc  "+programID + programdescription );
 		response=given().contentType(ContentType.JSON).accept(ContentType.JSON).body(jsonObject.toJSONString()).when()
@@ -350,10 +355,8 @@ public class AProgram_module {
 	@When("User send the HTTPsPUT request with valid programName from {string} and {int}")
 	public void user_send_the_htt_ps_put_request_with_valid_program_name(String SheetName, Integer rowno) throws org.apache.poi.openxml4j.exceptions.InvalidFormatException, IOException {
 		System.out.println("value for program id and name  "+postprogramID + postprogramName);	
-		ExcelReader reader = new ExcelReader();
-		
-		String description="30days course";
-		//String description=RandomStringUtils.randomAlphabetic(5);
+		ExcelReader reader = new ExcelReader();	
+		String description=RandomStringUtils.randomAlphabetic(5);
 		//String description="Quality Analyst";
 		List<Map<String, String>> testdata;
     	 testdata = reader.getData(Config_Reader.excelpath(), SheetName);
@@ -364,7 +367,9 @@ public class AProgram_module {
 		JSONObject jsonObject = new JSONObject();		
 		jsonObject.put("programDescription",description);
 		jsonObject.put("programName",postprogramName);
-		jsonObject.put("programStatus", progstatus);			
+		jsonObject.put("programStatus", progstatus);
+		jsonObject.put("creationTime", currentTime);
+		jsonObject.put("lastModTime", lastModTime);
 		System.out.println("updateing programdesc  "+programID + programdescription );
 		response=given().contentType(ContentType.JSON).accept(ContentType.JSON).body(jsonObject.toJSONString()).when()
 				.put(postURI).then().log().all().extract().response();

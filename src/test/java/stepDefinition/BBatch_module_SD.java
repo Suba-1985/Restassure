@@ -16,7 +16,7 @@ import utilities.Config_Reader;
 import utilities.LoggerLoad;
 import utilities.PageUtils;
 
-public class BBatch_module {
+public class BBatch_module_SD {
 	private static Config_Reader configreader=new Config_Reader();
 	 static Properties prop;
 	 private PageUtils pageUtil=new PageUtils();
@@ -33,8 +33,8 @@ public class BBatch_module {
 	    
 	@Given("User creates POST Request for the Batch LMS API endpoint")
 	public void user_creates_post_request_for_the_batch_lms_api_endpoint() throws IOException {
-		 prop=configreader.init_prop();	 
-		  postURI=configreader.baseUrl()+configreader.endpointBatchSave();
+		  prop=Config_Reader.init_prop();	 
+		  postURI=configreader.baseUrl()+Config_Reader.createbatchsaveandGetBatchesAllputBatchUpdatebyBatchIdandDeleteBatch();
 		  System.out.println(postURI);
 		  LoggerLoad.info("**************getting the end point for post**************" + postURI);
 	}

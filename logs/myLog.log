@@ -345,3 +345,107 @@
 [INFO ]2023-07-23 00:33:51.217 [main]LoggerLoad-statusline
 [INFO ]2023-07-23 00:33:51.249 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/
 [INFO ]2023-07-23 00:33:51.384 [main]LoggerLoad-***user sends the get request by sending the program id***
+[INFO ]2023-07-23 10:03:03.464 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/allPrograms
+[INFO ]2023-07-23 10:03:05.491 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-23 10:03:05.561 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 10:03:07.121 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-23 10:03:07.157 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 10:03:07.189 [main]LoggerLoad-*********Header validation for post request**********
+[INFO ]2023-07-23 10:03:07.193 [main]LoggerLoad-statusline
+[INFO ]2023-07-23 10:03:07.215 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/
+[INFO ]2023-07-23 10:03:07.368 [main]LoggerLoad-***user sends the get request by sending the program id***
+[INFO ]2023-07-23 10:05:52.358 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches
+[INFO ]2023-07-23 10:07:01.083 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches
+[INFO ]2023-07-23 10:10:03.743 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches
+[INFO ]2023-07-23 10:38:58.838 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/allPrograms
+[INFO ]2023-07-23 10:38:59.788 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-23 10:38:59.821 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 10:39:01.000 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-23 10:39:01.024 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 10:39:01.063 [main]LoggerLoad-*********Header validation for post request**********
+[INFO ]2023-07-23 10:39:01.069 [main]LoggerLoad-statusline
+[INFO ]2023-07-23 10:39:01.091 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/
+[INFO ]2023-07-23 10:39:01.230 [main]LoggerLoad-***user sends the get request by sending the program id***
+[INFO ]2023-07-23 10:39:01.248 [main]LoggerLoad-**************getting the baseurl and endpoint for post to resend the data for negative scenario**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 10:39:01.444 [main]LoggerLoad-****************Sending the request with same data to create should get error 400*********************
+[INFO ]2023-07-23 10:39:01.446 [main]LoggerLoad-Not Successful: 400
+[INFO ]2023-07-23 10:39:01.449 [main]LoggerLoad-*********Header validation for post request**********
+[INFO ]2023-07-23 10:39:01.450 [main]LoggerLoad-statusline
+[INFO ]2023-07-23 10:39:01.477 [main]LoggerLoad-******given with the baseurl and endpoint for update program status with programid*******
+[INFO ]2023-07-23 10:39:01.659 [main]LoggerLoad-****************successfully updated with programid*********************
+[INFO ]2023-07-23 10:39:01.661 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 10:39:01.672 [main]LoggerLoad-**********Given baseurl and endpoint for update program with name*********
+[INFO ]2023-07-23 10:39:01.879 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-23 10:39:01.884 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 10:39:02.003 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 10:39:02.015 [main]LoggerLoad-**************given baseurl and endpoint to delete program with porgram id****************
+[INFO ]2023-07-23 10:39:02.168 [main]LoggerLoad-Not Successful: 400
+[INFO ]2023-07-23 10:47:56.619 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/allPrograms
+[INFO ]2023-07-23 10:47:57.486 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-23 10:47:57.515 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 10:47:58.726 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-23 10:47:58.751 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 10:47:58.782 [main]LoggerLoad-*********Header validation for post request**********
+[INFO ]2023-07-23 10:47:58.786 [main]LoggerLoad-statusline
+[INFO ]2023-07-23 10:47:58.804 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/
+[INFO ]2023-07-23 10:47:58.924 [main]LoggerLoad-***user sends the get request by sending the program id***
+[INFO ]2023-07-23 10:47:58.955 [main]LoggerLoad-**************getting the baseurl and endpoint for post to resend the data for negative scenario**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 10:47:59.169 [main]LoggerLoad-****************Sending the request with same data to create should get error 400*********************
+[INFO ]2023-07-23 10:47:59.171 [main]LoggerLoad-Not Successful: 400
+[INFO ]2023-07-23 10:47:59.174 [main]LoggerLoad-*********Header validation for post request**********
+[INFO ]2023-07-23 10:47:59.175 [main]LoggerLoad-statusline
+[INFO ]2023-07-23 10:47:59.192 [main]LoggerLoad-******given with the baseurl and endpoint for update program status with programid*******
+[INFO ]2023-07-23 10:47:59.413 [main]LoggerLoad-****************successfully updated with programid*********************
+[INFO ]2023-07-23 10:47:59.414 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 10:47:59.427 [main]LoggerLoad-**********Given baseurl and endpoint for update program with name*********
+[INFO ]2023-07-23 10:47:59.655 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-23 10:47:59.659 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 10:47:59.808 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 10:47:59.823 [main]LoggerLoad-**************given baseurl and endpoint to delete program with porgram id****************
+[INFO ]2023-07-23 10:47:59.953 [main]LoggerLoad-Not Successful: 400
+[INFO ]2023-07-23 10:50:32.971 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/allPrograms
+[INFO ]2023-07-23 10:50:33.982 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-23 10:50:34.016 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 10:50:35.197 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-23 10:50:35.221 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 10:50:35.253 [main]LoggerLoad-*********Header validation for post request**********
+[INFO ]2023-07-23 10:50:35.258 [main]LoggerLoad-statusline
+[INFO ]2023-07-23 10:50:35.282 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/
+[INFO ]2023-07-23 10:50:35.434 [main]LoggerLoad-***user sends the get request by sending the program id***
+[INFO ]2023-07-23 10:50:35.458 [main]LoggerLoad-**************getting the baseurl and endpoint for post to resend the data for negative scenario**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 10:50:35.634 [main]LoggerLoad-****************Sending the request with same data to create should get error 400*********************
+[INFO ]2023-07-23 10:50:35.637 [main]LoggerLoad-Not Successful: 400
+[INFO ]2023-07-23 10:50:35.640 [main]LoggerLoad-*********Header validation for post request**********
+[INFO ]2023-07-23 10:50:35.641 [main]LoggerLoad-statusline
+[INFO ]2023-07-23 10:50:35.667 [main]LoggerLoad-******given with the baseurl and endpoint for update program status with programid*******
+[INFO ]2023-07-23 10:50:35.859 [main]LoggerLoad-****************successfully updated with programid*********************
+[INFO ]2023-07-23 10:50:35.860 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 10:50:35.876 [main]LoggerLoad-**********Given baseurl and endpoint for update program with name*********
+[INFO ]2023-07-23 10:50:36.076 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-23 10:50:36.080 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 10:50:36.207 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 10:50:36.217 [main]LoggerLoad-**************given baseurl and endpoint to delete program with porgram id****************
+[INFO ]2023-07-23 10:50:36.335 [main]LoggerLoad-Not Successful: 400
+[INFO ]2023-07-23 10:52:56.283 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/allPrograms
+[INFO ]2023-07-23 10:52:57.166 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-23 10:52:57.200 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 10:52:58.438 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-23 10:52:58.468 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 10:52:58.512 [main]LoggerLoad-*********Header validation for post request**********
+[INFO ]2023-07-23 10:52:58.517 [main]LoggerLoad-statusline
+[INFO ]2023-07-23 10:52:58.543 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/
+[INFO ]2023-07-23 10:52:58.677 [main]LoggerLoad-***user sends the get request by sending the program id***
+[INFO ]2023-07-23 10:52:58.694 [main]LoggerLoad-**************getting the baseurl and endpoint for post to resend the data for negative scenario**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 10:52:58.930 [main]LoggerLoad-****************Sending the request with same data to create should get error 400*********************
+[INFO ]2023-07-23 10:52:58.932 [main]LoggerLoad-Not Successful: 400
+[INFO ]2023-07-23 10:52:58.934 [main]LoggerLoad-*********Header validation for post request**********
+[INFO ]2023-07-23 10:52:58.935 [main]LoggerLoad-statusline
+[INFO ]2023-07-23 10:52:58.952 [main]LoggerLoad-******given with the baseurl and endpoint for update program status with programid*******
+[INFO ]2023-07-23 10:52:59.187 [main]LoggerLoad-****************successfully updated with programid*********************
+[INFO ]2023-07-23 10:52:59.188 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 10:52:59.201 [main]LoggerLoad-**********Given baseurl and endpoint for update program with name*********
+[INFO ]2023-07-23 10:52:59.375 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-23 10:52:59.384 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 10:52:59.546 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 10:52:59.566 [main]LoggerLoad-**************given baseurl and endpoint to delete program with porgram id****************
+[INFO ]2023-07-23 10:52:59.675 [main]LoggerLoad-Not Successful: 400

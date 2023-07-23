@@ -52,9 +52,11 @@ public class BBatchModule {
 			}
 
 	
+	@SuppressWarnings("unchecked")
 	public Response postbatch(String uri)
 	{String s = RandomStringUtils.randomNumeric(3); 
 	  String batch=batchname+s;
+	  int programid=10754;
 	  System.out.println("**batch***"+batch);
 
 		JSONObject jsonObject = new JSONObject();
@@ -62,7 +64,7 @@ public class BBatchModule {
 		jsonObject.put("batchName", batch);
 		jsonObject.put("batchNoOfClasses", batchclassno);
 		jsonObject.put("batchStatus", batchstatus);
-		jsonObject.put("programId", AProgramModule.programId);
+		jsonObject.put("programId",programid );
 		String payload = jsonObject.toString();
 		Response response = noAuthendication(noAuth).body(payload).post(uri);
 		BatchId=response.jsonPath().getString("batchId");
