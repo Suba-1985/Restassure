@@ -3,16 +3,16 @@
 Feature: Test LMS api program module with BaseUrl and Endpoints
   Background:
   Given User sets Authoization to "No Auth"
-  
+ 
  	
  
-  @GET_PositiveAllPrograms @positive @getallprograms @positiveID
+  @GET_PositiveAllPrograms @positive @getallprograms @positiveID @postb
   Scenario: validating User able to retrieve all programs with valid endpoint
     Given User is provided with the BaseUrl and the Endpoints to create a GET request
     When  User send the HTTPsGET request
     Then  User validates the response with Status code "200" and validate schema for all the program 
 
-  @POST_Positive @positive @positiveID
+  @POST_Positive @positive @positiveID 
   Scenario Outline: validating User able to create a program with valid endpoint and Payload
     Given User is provided with the BaseUrl and endpoint and nonexisting fields in payload
     When  User send the HTTPsPOST request to server with the payload from "<sheetname>" and <rownumber>
@@ -21,7 +21,7 @@ Feature: Test LMS api program module with BaseUrl and Endpoints
 			| sheetname |rownumber|
 			| user		| 0   |
 			
-	@GET_PositiveByValidProgramID @positiveID
+	@GET_PositiveByValidProgramID @positiveID @postb
   Scenario: validating User able to retrieve program with valid programID
     Given User is provided with the BaseUrl and the Endpoints to create a GET request with valid program id
     When  User send the HTTPsGET request with valid programID

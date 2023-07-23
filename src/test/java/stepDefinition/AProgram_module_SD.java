@@ -51,6 +51,8 @@ public class AProgram_module_SD {
 		 request = RestAssured.given()
 			.header("Authorization", string).contentType("application/json"); 	
     }
+    
+    
 
 	
 	@Given("User is provided with the BaseUrl and endpoint and nonexisting fields in payload")
@@ -89,7 +91,7 @@ public class AProgram_module_SD {
 	}
 
 	@Then("User validates the response with status code {string} from post")
-	public void user_validates_the_response_with_status_code_response_time_header(final String statuscode) {
+	public void user_validates_the_response_with_status_code_response_time_header( String statuscode) {
 		final int Poststatuscode = response.getStatusCode();
 
 		if (Poststatuscode == 201) {
@@ -215,7 +217,7 @@ public class AProgram_module_SD {
 	@SuppressWarnings("deprecation")
 	@Then("User validates the response with Status code {string} and validate schema for all the program")
 	public void user_validates_the_response_with_Status_code_response_time_header(final String statuscode) {
-		final int Poststatuscode = response.getStatusCode();
+		int Poststatuscode = response.getStatusCode();
 		
 		String responseBody=response.getBody().asString();
 		assertThat(responseBody,matchesJsonSchemaInClasspath("getallprogram.json"));

@@ -28,21 +28,20 @@ public class AProgramModule {
 	private static Response response;
 	public static String programId;
 	public static String progid;
-	RequestSpecification requestSpecification;
+	RequestSpecification request;
 	private static String progNameinvalid;
 	private static Config_Reader configreader=new Config_Reader();
-
-	public RequestSpecification noAuthentication(String noauth)
-	{
-		noAuth=noauth;	
-		RequestSpecification requestSpecification = RestAssured.given()
-			.header("Authorization", noauth).contentType("application/json");
-	return requestSpecification;
-	}
+	
+	private String batchdes;
+	private String batchname;
+	private String batchclassno;
+	private String batchstatus;
+	public static String BatchId;
+	
 
 	public void getDatafromExcel(String sheetname, int rownumber) throws IOException, org.apache.poi.openxml4j.exceptions.InvalidFormatException {
 		ExcelReader reader = new ExcelReader();
-		String data[]=new String[2];
+		
 		List<Map<String, String>> testdata;
 		try {
 			 testdata = reader.getData(Config_Reader.excelpath(), sheetname);
@@ -51,7 +50,10 @@ public class AProgramModule {
 			 progstatus= testdata.get(rownumber).get("programStatus");
 			  progidinvalid = testdata.get(rownumber).get("invalidprogramID");
 			  progNameinvalid=testdata.get(rownumber).get("invalidprogramName");
-			  
+			  batchdes = testdata.get(rownumber).get("batchDescription");	
+				 batchname=testdata.get(rownumber).get("batchName");
+				 batchclassno=testdata.get(rownumber).get("batchNoOfClasses");
+				 batchstatus=testdata.get(rownumber).get("batchStatus");
 			 
 		} catch (InvalidFormatException e) {
 			
@@ -63,6 +65,7 @@ public class AProgramModule {
 			}
 	
 	
+	@SuppressWarnings("unchecked")
 	public Response postprogram(String postUri)
 	{
 		JSONObject jsonObject = new JSONObject();
@@ -72,8 +75,15 @@ public class AProgramModule {
 		jsonObject.put("programDescription",programdescription);
 		jsonObject.put("programName", programNamestr);
 		jsonObject.put("programStatus", progstatus);
+		jsonObject.put("batchDescription", progstatus);
+		jsonObject.put("batchName", progstatus);
+		jsonObject.put("batchNoOfClasses", progstatus);
+		jsonObject.put("batchStatus", progstatus);
+		jsonObject.put("programId", progstatus);
+		
+		
 		String payload = jsonObject.toString();
-		response = noAuthentication(noAuth).body(jsonObject).post(postUri).then().log().all().extract().response();		
+		response = request.body(jsonObject.toJSONString()).when().post(postUri).then().log().all().extract().response();		
 		programId=response.jsonPath().getString("programId");
 		progName=response.jsonPath().getString("programName");
 		LoggerLoad.info("post request sent with valid data");
@@ -85,6 +95,30 @@ public class AProgramModule {
 	}
 	
 	
+	@SuppressWarnings("unchecked")
+	public Response postbatch(String postUri)
+	{
+		JSONObject jsonObject = new JSONObject();
+		String s = RandomStringUtils.randomNumeric(3); 			
+		jsonObject.put("batchDescription", progstatus);
+		jsonObject.put("batchName", progstatus);
+		jsonObject.put("batchNoOfClasses", progstatus);
+		jsonObject.put("batchStatus", progstatus);
+		jsonObject.put("programId", 10754);	
+		System.out.println(programId);
+		
+		String payload = jsonObject.toString();
+		response = request.body(jsonObject.toJSONString()).when().post(postUri).then().log().all().extract().response();		
+		programId=response.jsonPath().getString("programId");
+		progName=response.jsonPath().getString("programName");
+		LoggerLoad.info("post request sent with valid data");
+	//	System.out.println("input data************"+programdescription+programNamestr+progstatus);
+		
+		System.out.println(response.jsonPath().prettyPrint());
+		
+		return response;
+	}
+	
 	public Response putprogram(String postUri)
 	{
 		JSONObject jsonObjectput = new JSONObject();
@@ -95,7 +129,7 @@ public class AProgramModule {
 		  jsonObjectput.put("programName", programNamestr);
 		  jsonObjectput.put("programStatus", progstatus);
 		String payload = jsonObjectput.toString();
-		Response response = noAuthentication(noAuth).body(jsonObjectput).post(postUri).then().log().all().extract().response();			
+		//Response response = noAuthentication(noAuth).body(jsonObjectput).post(postUri).then().log().all().extract().response();			
 		putprogramId=response.jsonPath().getString("programId from putprogram module" + response.jsonPath().getString("programName"));
 	//	System.out.println("input data************"+programdescription+programNamestr+progstatus);
 		

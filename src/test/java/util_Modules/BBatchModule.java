@@ -23,6 +23,7 @@ public class BBatchModule {
 	public static String BatchId;
 	Response response;
 	RequestSpecification requestSpecification;
+	
 	public RequestSpecification noAuthendication(String noauth)
 	{
 		noAuth=noauth;	
@@ -31,16 +32,14 @@ public class BBatchModule {
 	return requestSpecification;
 
 }
+	
 	public void getDatafromExcel(String sheetname, int rownumber) throws IOException, org.apache.poi.openxml4j.exceptions.InvalidFormatException {
 		ExcelReader reader = new ExcelReader();
 		String data[]=new String[2];
 		List<Map<String, String>> testdata;
 		try {
 			testdata = reader.getData("src/test/resources/testData/data.xlsx", sheetname);
-			 batchdes = testdata.get(rownumber).get("batchDescription");	
-			 batchname=testdata.get(rownumber).get("batchName");
-			 batchclassno=testdata.get(rownumber).get("batchNoOfClasses");
-			 batchstatus=testdata.get(rownumber).get("batchStatus");
+			 
 			
 		} catch (InvalidFormatException e) {
 			// TODO Auto-generated catch block
@@ -68,12 +67,12 @@ public class BBatchModule {
 		String payload = jsonObject.toString();
 		Response response = noAuthendication(noAuth).body(payload).post(uri);
 		BatchId=response.jsonPath().getString("batchId");
-		System.out.println(response.jsonPath().prettyPrint());
+		System.out.println(response.jsonPath().prettyPrint() + BatchId);
 		return response;
 	}
-	public Response deletebatchid(String uri)
-	{
-				return response=noAuthendication(noAuth).param(BatchId).delete(uri);		
-	}
+//	public Response deletebatchid(String uri)
+//	{
+//	//			return response=noAuthendication(noAuth).param(BatchId).delete(uri);		
+//	}
 
 }
