@@ -10,7 +10,7 @@ import java.util.Properties;
 public class Config_Reader {
 	private static Properties prop;
 	
-	public Properties init_prop() throws IOException
+	public static Properties init_prop() throws IOException
 	{
 		prop=new Properties();
 		try
@@ -30,9 +30,11 @@ public class Config_Reader {
 	
 	
 	
-	public String baseUrl()
-	{
+	public String baseUrl() throws IOException
+	{prop=init_prop();
 		String url = prop.getProperty("BaseUrl");
+		
+
 		System.out.println(url);
 		if(url!=null)
 		{
@@ -44,8 +46,9 @@ public class Config_Reader {
 		return url;	
 	}
 	
-	public static String postProgramEndpoint()
-	{
+	public static String postProgramEndpoint() throws IOException
+	{prop=init_prop();
+
 		String postEndPoint = prop.getProperty("PostProgramEndpoint");
 		
 		if(postEndPoint!=null)
@@ -70,7 +73,9 @@ public class Config_Reader {
 		}	return getAllPoint;	
 	}
 	
-	public static String getOneProgramIdEndpoint() {
+	public static String getOneProgramIdEndpoint() throws IOException {
+		prop=init_prop();
+
 		String getIdEndPoint = prop.getProperty("GetOneProgramIdEndpoint");
 		if (getIdEndPoint != null)
 			return getIdEndPoint;
@@ -99,21 +104,43 @@ public class Config_Reader {
 		else
 			throw new RuntimeException("GetOneProgramIdEndpoint not specified in the Config.properties file");
 	}
-	public static String deleteprogramBynameEndpoint() {
+	public static String deleteprogramBynameEndpoint() throws IOException {
+		prop=init_prop();
+
 		String deletebynameEndPoint = prop.getProperty("DeleteProgramByProgramNameEndpoint");
 		if (deletebynameEndPoint != null)
 			return deletebynameEndPoint;
 		else
 			throw new RuntimeException("deletebynameEndPoint not specified in the Config.properties file");
 	}
-//	public static String getOneProgramIdEndpoint() {
-//		String getIdEndPoint = prop.getProperty("GetOneProgramIdEndpoint");
-//		if (getIdEndPoint != null)
-//			return getIdEndPoint;
-//		else
-//			throw new RuntimeException("GetOneProgramIdEndpoint not specified in the Config.properties file");
-//	}
 	
+	public static String endpointBatchSave() throws IOException
+	{prop=init_prop();
+		String getEndPoint = prop.getProperty("batchsave");
+		
+		if(getEndPoint!=null)
+		{
+			return getEndPoint;
+		}else
+		{
+			System.out.println("Endpoint is not mentioned in config properties");
+		}	return getEndPoint;
+	}
+	public static String testDataResourcePath() {
+		String testDataJson = prop.getProperty("testDataResourcePath");
+		if (testDataJson != null)
+			return testDataJson;
+		else
+			throw new RuntimeException("testDataJson not specified in the Config.properties file");
+	}
+	
+	public static String getallprg() {
+		String testDataJson1 = prop.getProperty("getallprogram");
+		if (testDataJson1 != null)
+			return testDataJson1;
+		else
+			throw new RuntimeException("testDataJson1 not specified in the Config.properties file");
+	}
 	
 	public static String excelpath()
 	{
