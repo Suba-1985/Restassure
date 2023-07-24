@@ -210,7 +210,7 @@ public class AProgram_module_SD {
 	@When("User send the HTTPsGET request")
 	public void user_send_the_https_get_request() throws IOException {
 	 response=request.get(postURI);
-	 response.then().log().all();
+	// response.then().log().all();
 	 LoggerLoad.info("***user sends the get all request****");		  
 	}
 	
@@ -220,7 +220,7 @@ public class AProgram_module_SD {
 		int Poststatuscode = response.getStatusCode();
 		
 		String responseBody=response.getBody().asString();
-		assertThat(responseBody,matchesJsonSchemaInClasspath("getallprogram.json"));
+		assertThat(responseBody,matchesJsonSchemaInClasspath(".\\src\\test\\resources\\getallprogramSchema.json"));
 
 		if (Poststatuscode == 200) {
 		  response.then().statusCode(Integer.parseInt(statuscode));
@@ -243,7 +243,8 @@ public class AProgram_module_SD {
 		final int Poststatuscode = response.getStatusCode();
 		
 		String responseBody=response.getBody().asString();
-		assertThat(responseBody,matchesJsonSchemaInClasspath("validateschema.json"));
+		assertThat(responseBody,matchesJsonSchemaInClasspath("Schema.json"));
+		//assertThat(responseBody,matchesJsonSchemaInClasspath("Schema.json"));
 
 		if (Poststatuscode == 200) {
 		  response.then().statusCode(Integer.parseInt(statuscode));

@@ -1,10 +1,14 @@
 package utilities;
 
 import java.io.IOException;
+import java.text.DateFormatSymbols;
 import java.time.LocalDateTime;
+import java.time.ZonedDateTime;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
+
+import org.apache.commons.lang3.RandomStringUtils;
 
 
 public class PageUtils {
@@ -32,5 +36,21 @@ public class PageUtils {
 		return date;
 	}
 	
+	public static String batchName() {
+		return String.format("%s%s-%s-%s-%s", 
+				ZonedDateTime.now().getDayOfMonth(), 
+				new DateFormatSymbols().getShortMonths()[ZonedDateTime.now().getMonth().getValue()-1],
+				"RestingNinjas",
+				"SDET","SDET"+RandomStringUtils.randomNumeric(2));
+	}
 	
+	public static String programName() {
+		return String.format("%s%s-%s-%s-%s", 
+				ZonedDateTime.now().getDayOfMonth(), 
+				new DateFormatSymbols().getShortMonths()[ZonedDateTime.now().getMonth().getValue()-1],
+				"RestingNinjas",
+				"SDET",RandomStringUtils.randomNumeric(3));
+	}
+	
+
 }

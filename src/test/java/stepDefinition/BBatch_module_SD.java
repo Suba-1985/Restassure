@@ -1,15 +1,12 @@
 package stepDefinition;
+import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.when;
 
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
-import static io.restassured.RestAssured.given;
-import static io.restassured.RestAssured.when;
-import static org.hamcrest.Matchers.equalTo;
-import static org.hamcrest.Matchers.hasItems;
 
-import org.json.simple.JSONObject;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.hamcrest.Matchers;
@@ -25,30 +22,25 @@ import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
-import util_Modules.AProgramModule;
-import util_Modules.BBatchModule;
 import utilities.Config_Reader;
 import utilities.ExcelReader;
 import utilities.LoggerLoad;
 import utilities.PageUtils;
 
 public class BBatch_module_SD {
+	static ResponseBody responsebody;
 	private static Config_Reader configreader=new Config_Reader();
-	 static Properties prop;
-	 private PageUtils pageUtil=new PageUtils();	 
-	   // private static BBatchModule batch=new BBatchModule();
-	    private static AProgramModule program=new AProgramModule();
-	   public static ResponseBody body;
-	    public static String batchprogName ,postprogramName;	
-	    private static RequestSpecification request;
-	  Response response;
-	    private static String postURI,programdescription;
-		private static int postprogramID,batchID;
-		public  static String programID,programName;	   
-	    private static String currentTime=PageUtils.getcurrentDateTime();
-	    private static String lastModTime=PageUtils.getcurrentDateTime();   
-	
-	   
+    static Properties prop; 	 
+     static String batchprogName ,postprogramName;	
+    private static RequestSpecification request;
+	Response response;
+	static int batchId;
+	private static String postURI,programdescription,batchName;
+     static int postprogramID,batchID;
+    static int batchpostprogramID;
+	public  static String programID,programName;	   
+	private static String currentTime=PageUtils.getcurrentDateTime();
+	private static String lastModTime=PageUtils.getcurrentDateTime();     
 	    
 	    @Given("User is provided with the BaseUrl and endpoint")
 		public void user_is_provided_with_the_base_url_and_endpoint_and_nonexisting_fields_in_payload() throws IOException {
@@ -62,15 +54,12 @@ public class BBatch_module_SD {
 		@SuppressWarnings("unchecked")
 		@When("User send the POST request to server with the payload from {string} and {int}")
 		public void user_send_the_HTTPsPOST_post_request_to_server_with_the_payload_from_and_rownumber(String SheetName, int rowno) throws InvalidFormatException, IOException, org.apache.poi.openxml4j.exceptions.InvalidFormatException {
-			
-			ExcelReader reader = new ExcelReader();
-			
+			ExcelReader reader = new ExcelReader();			
 			List<Map<String, String>> testdata;
 	    	 testdata = reader.getData(Config_Reader.excelpath(), SheetName);
 			String programdescription = testdata.get(rowno).get("programDescription");	
 			String progname= testdata.get(rowno).get("programName");
-			String progstatus= testdata.get(rowno).get("programStatus");	
-			
+			String progstatus= testdata.get(rowno).get("programStatus");			
 			JSONObject jsonObject = new JSONObject();
 			String s = RandomStringUtils.randomNumeric(3); 
 			String programNamestr=progname+s;		
@@ -98,30 +87,14 @@ public class BBatch_module_SD {
 			} else {
 				LoggerLoad.error("Not Successful: 400");
 				 System.out.println("Not Successful" + actualstatuscode);
-				Assert.assertFalse(false);		}		
-			ValidatableResponse  v=response.then();
-			v.time(Matchers.lessThan(1000L));		
-			//header validation
-			response.then().assertThat().header("connection","keep-alive");
-			response.then().assertThat().header("Content-Type" , "application/json");
-			LoggerLoad.info("*********Header validation for post request**********");	
-			response.then().assertThat().statusLine(response.statusLine());
-			LoggerLoad.info("statusline");
-			
-			//to validate response body
-			 body = response.getBody();
-			// To check for sub string presence get the Response body as a String.
-			// Do a String.contains
-			String bodyAsString = body.asString();
-			System.out.println("assertion odne");
-			//Assert.assertEquals(bodyAsString.contains("Selenium") /*Expected value*/, true /*Actual Value*/, "Response body contains Hyderabad");
-			
+				Assert.assertFalse(false);		
+				}		
 		}
 		
 	    
 	@Given("User is provided with the BaseUrl and endpoint for batch")
 	public void user_creates_post_request_for_the_batch_lms_api_endpoint() throws IOException {
-		  prop=Config_Reader.init_prop();	 
+		  prop=Config_Reader.init_prop();			 
 		  postURI=configreader.baseUrl()+Config_Reader.createbatchsaveandGetBatchesAllputBatchUpdatebyBatchIdandDeleteBatch();
 		  System.out.println(postURI);
 		  System.out.println(postprogramName + postprogramID );
@@ -132,30 +105,27 @@ public class BBatch_module_SD {
 	@When("User sends HTTPS Request for batch and  request Body with mandatory , additional using {string} and {int}")
 	public void user_sends_https_request_for_batch_and_request_body_with_mandatory_additional_using_and(String sheetname, Integer rowno) throws InvalidFormatException, IOException {
 			ExcelReader reader = new ExcelReader();
-		System.out.println("test "+AProgram_module_SD.programID);
+		    System.out.println("test "+AProgram_module_SD.programID);
 			List<Map<String, String>> testdata;
 			testdata = reader.getData(Config_Reader.excelpath(), sheetname);
-			  String batchdescription = testdata.get(rowno).get("batchDescription");	
-			  String batchname=testdata.get(rowno).get("batchName");
+			  String batchdescription = testdata.get(rowno).get("batchDescription");			
 			  String batchclassno=testdata.get(rowno).get("batchNoOfClasses");
-			  String batchstatus=testdata.get(rowno).get("batchStatus");
-			  String s = RandomStringUtils.randomNumeric(3); 
-			  String batch=batchname+s;
+			  String batchstatus=testdata.get(rowno).get("batchStatus");				
 			  int programid=postprogramID;
+			  String bname=RandomStringUtils.randomNumeric(2);
 					JSONObject jsonObject = new JSONObject();
 					jsonObject.put("batchDescription",batchdescription);
-					jsonObject.put("batchName", batch);
+					jsonObject.put("batchName", PageUtils.batchName()+bname);
 					jsonObject.put("batchNoOfClasses", batchclassno);
 					jsonObject.put("batchStatus", batchstatus);
-					jsonObject.put("programId",programid );
-		
-		
+					jsonObject.put("programId",programid );		
 		response=request.body(jsonObject.toJSONString()).when().post(postURI).then().log().all().extract().response();
 		postprogramName=response.path("programName");//this gives the created programid and name
-		postprogramID=response.path("programId");
+		batchpostprogramID=response.path("programId");
+		System.out.println(batchpostprogramID + "   " +postprogramID);
 		batchID=response.path("batchId");
-		batchname=response.path("batchName");
-	    LoggerLoad.info("****************Program is created valid data*********************");	
+		batchName=response.path("batchName");
+	    LoggerLoad.info("****************batch is created valid data*********************");	
 			
 	}
 			
@@ -164,54 +134,162 @@ public class BBatch_module_SD {
 	public void user_receives_created_status_with_response_body(Integer int1) {
 	    Assert.assertEquals(response.statusCode(), int1);
 	}
+	
 	@Given("User is provided with the BaseUrl and the Endpoints to create a GET request for all batches")
-	public void user_is_provided_with_the_base_url_and_the_endpoints_to_create_a_get_request_for_all_batches() {
-	    
+	public void user_is_provided_with_the_base_url_and_the_endpoints_to_create_a_get_request_for_all_batches() throws IOException {
+		request = RestAssured.given();
+		postURI=configreader.baseUrl()+Config_Reader.createbatchsaveandGetBatchesAllputBatchUpdatebyBatchIdandDeleteBatch();
+	}
+	
+	@When("User send the HTTPsGET request to get all batches")
+	public void User_Send_HTTPsGET_request()
+	{
+		response=request.get(postURI);
+		// response.then().log().all();
+		 LoggerLoad.info("***user sends the get all request****");	
+		 
 	}
 
+	@Then("User validates the response with Status code {int} from batch")
+	public void User_validates_the_response_with_Status_code(int expectedstatuscode) 
+	{Assert.assertEquals(response.statusCode(), expectedstatuscode);
+	}
+	
+	@Given("User is provided with the BaseUrl and the Endpoints to create a GET request from batch")
+	public void User_gets_batch_with_batchID() throws IOException
+	{
+		postURI=configreader.baseUrl()+Config_Reader.getBatchbyID()+batchID;	
+		 LoggerLoad.info("***user sends the get batchid request****" + postURI + batchID);
+		
+	}
 	@When("User send the HTTPsGET request with valid batchID")
 	public void user_send_the_htt_ps_get_request_with_valid_batch_id() {
-	    
+	    response=given().when().get(postURI);
+	    LoggerLoad.info("User gets the batch with batchID :" +batchID);
 	}
 
-	@Then("User validates the response with status code, response time, header")
-	public void user_validates_the_response_with_status_code_response_time_header() {
-	   
+	@Then("User validates the response with batchName and status {int}")
+	public void user_validates_the_response_with_status_code_response_time_header(Integer expectedstatuscode) {
+		Assert.assertEquals(response.statusCode(), expectedstatuscode);	
+		LoggerLoad.info("asserting the batchID " + batchID);	
+		String bodyasString=response.asString()	;
+		Assert.assertTrue(bodyasString.contains(batchName));	
+	}
+
+	
+
+	@Given("User is provided with the BaseUrl and the Endpoints from batch")
+	public void User_is_provided_with_the_baseurl() throws IOException
+	{
+	postURI=configreader.baseUrl()+Config_Reader.getBatchbyName()+batchName;
+	LoggerLoad.info("Usr gets the batch info by batch name" + batchName);	
 	}
 
 	@When("User send the HTTPsGET request with valid batch name")
 	public void user_send_the_htt_ps_get_request_with_valid_batch_name() {
-	    
+	   response=given().when().get(postURI);
+	   LoggerLoad.info("user sends the get request : " + batchName);
+	}
+	
+	@Given("User is provided with the BaseUrl and the Endpoints")
+	public void User_is_provided_with_the_BaseUrl_and_the_Endpoints() throws IOException
+	{
+		postURI=configreader.baseUrl()+Config_Reader.getBatchbyProgramId()+batchpostprogramID;
+		LoggerLoad.info("user send the get request to retrieve batch with programid " + postURI);
 	}
 
 	@When("User send the HTTPsGET request for batch with valid programID")
 	public void user_send_the_htt_ps_get_request_for_batch_with_valid_program_id() {
-	    
+	   response=given().when().get(postURI);
+	   LoggerLoad.info("user gets the batch by programid : "+ batchpostprogramID);
+	   
 	}
-
+	
+	
 	@Given("User is provided with the BaseUrl and the Endpoints to update fields with batchID")
-	public void user_is_provided_with_the_base_url_and_the_endpoints_to_update_fields_with_batch_id() {
-	    
+	public void user_is_provided_with_the_base_url_and_the_endpoints_to_update_fields_with_batch_id() throws IOException {
+	    postURI=configreader.baseUrl()+Config_Reader.createbatchsaveandGetBatchesAllputBatchUpdatebyBatchIdandDeleteBatch()+batchID;
+	    LoggerLoad.info("User is given with the baseurl and update batch endpoint");
 	}
 
-	@When("User send the HTTPsPUT request with valid batchID")
-	public void user_send_the_htt_ps_put_request_with_valid_batch_id() throws IOException {
-	  
+	@SuppressWarnings("unchecked")
+	@When("User send the HTTPsPUT request with valid batchID {string} and {int}")
+	public void user_send_the_htt_ps_put_request_with_valid_batch_id(String sheetname,int rowno) throws IOException, InvalidFormatException {
+		ExcelReader reader = new ExcelReader();		
+		List<Map<String, String>> testdata;
+    	 testdata = reader.getData(Config_Reader.excelpath(), sheetname);
+    	  String batchdescription = testdata.get(rowno).get("batchDescription");	
+		  String batchname=testdata.get(rowno).get("batchName");
+		  String batchclassno=testdata.get(rowno).get("batchNoOfClasses");
+		  String batchstatus=testdata.get(rowno).get("batchStatus");		
+		JSONObject jsonObject = new JSONObject();
+		jsonObject.put("batchDescription",batchdescription);
+		jsonObject.put("batchId",batchID);
+		jsonObject.put("batchName", PageUtils.batchName());
+		jsonObject.put("batchNoOfClasses", batchclassno);
+		jsonObject.put("batchStatus", batchstatus);
+		jsonObject.put("programId",batchpostprogramID );	
+		jsonObject.put("programName", batchprogName);
+		response=request.contentType(ContentType.JSON).body(jsonObject.toJSONString()).when().put(postURI).then().log().all().extract().response();
+		//postprogramName=response.path("programName");
+//		postprogramID=response.path("programId");
+	//	System.out.println(postprogramName + postprogramID);
+	    LoggerLoad.info("****************batch is updated*********************");
 	}
 
-	@SuppressWarnings("static-access")
+	
 	@Given("User is provided with the BaseUrl and the Endpoints to delete a batch with valid BatchId")
 	public void user_is_provided_with_the_base_url_and_the_endpoints_to_delete_a_batch_with_valid_batch_id() throws IOException {
 	
-		postURI=configreader.baseUrl()+configreader.createbatchsaveandGetBatchesAllputBatchUpdatebyBatchIdandDeleteBatch()+batchID; 
+		postURI=configreader.baseUrl()+Config_Reader.createbatchsaveandGetBatchesAllputBatchUpdatebyBatchIdandDeleteBatch()+batchID; 
 		System.out.println(postURI);
 	}
 	
 
 	@When("User send the HTTPsDELETE request with valid batchid")
 	public void user_send_the_htt_ps_delete_request_with_valid_batchid() {
-		String res=when().delete(postURI).statusLine();
-	    System.out.println("delete :" + res);
+		 response=when().delete(postURI);
+	   
+	}
+	
+		@Then("User validates the response with status code {int}, response time, header")
+    public void User_validates_the_response_with_status_code_response_time_header(Integer expectedstatuscode)
+    {   Assert.assertEquals(response.statusCode(), expectedstatuscode);	
+		response.then().assertThat().header("connection","keep-alive");
+		response.then().assertThat().header("Content-Type" , "application/json");
+		LoggerLoad.info("*********Header and statusline and statuscode and responsetime validation**********");	
+		response.then().assertThat().statusLine(response.statusLine());
+		ValidatableResponse  v=response.then();
+		v.time(Matchers.lessThan(1000L));	
+    }
+	
+//	//trial will delete
+//	@When("User sends HTTPS Request for batch and  request Body with mandatory , additional using {string} andd {int}")
+//	public void user_sends_https_request_for_batch_and_request_body_with_mandatory_additional_using_andd(String string, Integer int1) throws InvalidFormatException, IOException {
+//	  // program.getDatafromExcel(string, int1);
+//	// int programidd;
+//	try {
+//		int programidd;
+//		programidd = AProgramModule.postprogram(string,int1,postURI );
+//		System.out.println("trial will deletetrial will deletevvvvvvvvvvvvvvvvvv"+programidd);
+//	} catch (Exception e) {
+//		// TODO Auto-generated catch block
+//		e.printStackTrace();
+//	}
+//	//trial will delete
+//	
+//		@Given("User creates POST Request for the Batch LMS API endpointt")
+//		public void user_creates_post_request_for_the_batch_lms_api_endpointt() throws IOException {
+//			 prop=Config_Reader.init_prop();	 
+//			  postURI=configreader.baseUrl()+Config_Reader.postProgramEndpoint();
+//			  System.out.println(postURI);
+//			 // System.out.println(postprogramName + postprogramID );
+//			 System.out.println( PageUtils.batchName());
+//			
+//			  System.out.println(PageUtils.programName());
+//			  LoggerLoad.info("**************getting the end point for post**************" + postURI);
+//		}
+	 
 	}
 	
 	
@@ -221,17 +299,7 @@ public class BBatch_module_SD {
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-}
+
 
 
 

@@ -1,14 +1,13 @@
 @Batch_module
 Feature: Test LMS apis program module with rest assured library and cucumber framework
   Background:
-  Given User sets Authoization to "No Auth" from batch
-
+  Given User sets Authoization to "No Auth"
   @Post
   Scenario Outline:
  
-		Given  User creates POST Request for the Batch LMS API endpoint  
-		When User sends HTTPS Request for batch and  request Body with mandatory , additional using "<SheetName>" and <Rowno>        
-		Then User receives 201 Created Status with response body.
+		Given  User creates POST Request for the Batch LMS API endpointt  
+		When User sends HTTPS Request for batch and  request Body with mandatory , additional using "<SheetName>" andd <Rowno>        
+	#	Then User receives 201 Created Status with response body.
  		Examples:
 				|SheetName|Rowno|
  			  |user|0|

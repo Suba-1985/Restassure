@@ -15,20 +15,23 @@ import com.fasterxml.jackson.databind.exc.InvalidFormatException;
 import io.restassured.RestAssured;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
+import io.restassured.response.ResponseBodyExtractionOptions;
 import io.restassured.specification.RequestSpecification;
 import utilities.Config_Reader;
 import utilities.ExcelReader;
 import utilities.LoggerLoad;
 public class AProgramModule {
 	private String noAuth;
-	private String programdescription,putprogramId;
-	private String progname,progName;
+	private static String programdescription;
+	private String putprogramId;
+	private static String progname;
+	private static String progName;
 	private static String progidinvalid,programNamestr;
-	private String progstatus;
+	private static String progstatus;
 	private static Response response;
 	public static String programId;
 	public static String progid;
-	RequestSpecification request;
+	static RequestSpecification request;
 	private static String progNameinvalid;
 	private static Config_Reader configreader=new Config_Reader();
 	
@@ -38,8 +41,12 @@ public class AProgramModule {
 	private String batchstatus;
 	public static String BatchId;
 	
+	public static int programID;//delete after
+	
 
 	public void getDatafromExcel(String sheetname, int rownumber) throws IOException, org.apache.poi.openxml4j.exceptions.InvalidFormatException {
+		
+		
 		ExcelReader reader = new ExcelReader();
 		
 		List<Map<String, String>> testdata;
@@ -66,32 +73,48 @@ public class AProgramModule {
 	
 	
 	@SuppressWarnings("unchecked")
-	public Response postprogram(String postUri)
-	{
+	public static int postprogram(String sheetname,int rownumber,String postUri) throws org.apache.poi.openxml4j.exceptions.InvalidFormatException, IOException
+	{request=RestAssured.given();
+ExcelReader reader = new ExcelReader();
+		
+		List<Map<String, String>> testdata;
+		
+			 testdata = reader.getData(Config_Reader.excelpath(), sheetname);
+			 programdescription = testdata.get(rownumber).get("programDescription");	
+			 progname= testdata.get(rownumber).get("programName");
+			 progstatus= testdata.get(rownumber).get("programStatus");
+			 // progidinvalid = testdata.get(rownumber).get("invalidprogramID");
+			//  progNameinvalid=testdata.get(rownumber).get("invalidprogramName");
+			//  batchdes = testdata.get(rownumber).get("batchDescription");	
+			//	 batchname=testdata.get(rownumber).get("batchName");
+			//	 batchclassno=testdata.get(rownumber).get("batchNoOfClasses");
+			//	 batchstatus=testdata.get(rownumber).get("batchStatus");
+			 
+		
 		JSONObject jsonObject = new JSONObject();
 		String s = RandomStringUtils.randomNumeric(3); 
-		  programNamestr=progname+s;
+		
+			programNamestr=progname+s;
+		
 		  System.out.println(programNamestr);
 		jsonObject.put("programDescription",programdescription);
 		jsonObject.put("programName", programNamestr);
 		jsonObject.put("programStatus", progstatus);
-		jsonObject.put("batchDescription", progstatus);
-		jsonObject.put("batchName", progstatus);
-		jsonObject.put("batchNoOfClasses", progstatus);
-		jsonObject.put("batchStatus", progstatus);
-		jsonObject.put("programId", progstatus);
-		
-		
+	//	jsonObject.put("batchDescription", progstatus);
+	//	jsonObject.put("batchName", progstatus);
+	//	jsonObject.put("batchNoOfClasses", progstatus);
+	//	jsonObject.put("batchStatus", progstatus);
+	//	jsonObject.put("programId", progstatus);		
 		String payload = jsonObject.toString();
-		response = request.body(jsonObject.toJSONString()).when().post(postUri).then().log().all().extract().response();		
-		programId=response.jsonPath().getString("programId");
+      programID = given().contentType("application/json").body(payload).when().post(postUri).jsonPath().getInt("programId");
+    	programId=((ResponseBodyExtractionOptions) request).jsonPath().getString("programId");
 		progName=response.jsonPath().getString("programName");
 		LoggerLoad.info("post request sent with valid data");
-	//	System.out.println("input data************"+programdescription+programNamestr+progstatus);
+		System.out.println("input data************"+programID+programId+programdescription+programNamestr+progstatus);
 		
 		System.out.println(response.jsonPath().prettyPrint());
 		
-		return response;
+		return programID;
 	}
 	
 	

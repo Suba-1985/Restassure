@@ -702,3 +702,910 @@
 [INFO ]2023-07-23 17:37:31.168 [main]LoggerLoad-Post Request Successful
 [INFO ]2023-07-23 17:37:31.172 [main]LoggerLoad-*********Header validation for post request**********
 [INFO ]2023-07-23 17:37:31.173 [main]LoggerLoad-statusline
+[INFO ]2023-07-23 20:07:52.391 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-23 20:09:55.017 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-23 20:11:17.253 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 20:13:16.776 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 20:17:52.682 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 20:19:15.627 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 20:21:20.388 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 21:15:09.162 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 21:17:21.064 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 21:19:40.946 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 21:20:22.862 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 21:22:04.856 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 21:24:32.353 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 21:24:58.483 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 21:28:34.119 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 21:28:36.384 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-23 21:28:36.417 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 21:28:36.450 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-23 21:28:36.824 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-23 21:28:36.829 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 21:35:06.867 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 21:35:09.191 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-23 21:35:09.227 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 21:35:09.267 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-23 21:35:09.592 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-23 21:35:09.597 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 21:35:09.820 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-23 21:35:09.842 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/allPrograms
+[INFO ]2023-07-23 21:35:09.881 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/allPrograms
+[INFO ]2023-07-23 21:35:09.906 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/allPrograms
+[INFO ]2023-07-23 21:37:10.117 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 21:37:12.621 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-23 21:37:12.652 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 21:37:12.693 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-23 21:37:13.007 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-23 21:37:13.010 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 21:37:13.329 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-23 21:41:00.848 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/allPrograms
+[INFO ]2023-07-23 21:41:02.040 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-23 21:41:02.068 [main]LoggerLoad-get Request Successful
+[INFO ]2023-07-23 21:41:02.100 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 21:41:03.511 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-23 21:41:03.514 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 21:41:03.558 [main]LoggerLoad-*********Header validation for post request**********
+[INFO ]2023-07-23 21:41:03.562 [main]LoggerLoad-statusline
+[INFO ]2023-07-23 21:41:03.607 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/
+[INFO ]2023-07-23 21:41:03.773 [main]LoggerLoad-***user sends the get request by sending the program id***
+[INFO ]2023-07-23 21:41:03.816 [main]LoggerLoad-**************getting the baseurl and endpoint for post to resend the data for negative scenario**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 21:41:04.029 [main]LoggerLoad-****************Sending the request with same data to create should get error 400*********************
+[INFO ]2023-07-23 21:41:04.031 [main]LoggerLoad-Not Successful: 400
+[INFO ]2023-07-23 21:41:04.033 [main]LoggerLoad-*********Header validation for post request**********
+[INFO ]2023-07-23 21:41:04.034 [main]LoggerLoad-statusline
+[INFO ]2023-07-23 21:41:04.052 [main]LoggerLoad-******given with the baseurl and endpoint for update program status with programid*******
+[INFO ]2023-07-23 21:41:04.260 [main]LoggerLoad-****************successfully updated with programid*********************
+[INFO ]2023-07-23 21:41:04.262 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 21:41:04.283 [main]LoggerLoad-**********Given baseurl and endpoint for update program with name*********
+[INFO ]2023-07-23 21:41:04.503 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-23 21:41:04.504 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 21:41:04.678 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 21:41:04.694 [main]LoggerLoad-**************given baseurl and endpoint to delete program with porgram id****************
+[INFO ]2023-07-23 21:41:04.805 [main]LoggerLoad-Not Successful: 400
+[INFO ]2023-07-23 21:41:25.198 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 21:41:27.527 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-23 21:41:27.558 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 21:41:27.598 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-23 21:41:27.877 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-23 21:41:27.882 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 21:41:28.113 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-23 21:43:32.232 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 21:43:34.577 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-23 21:43:34.621 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 21:43:34.660 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-23 21:43:34.959 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-23 21:43:34.962 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-23 21:43:35.234 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-23 22:24:36.492 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 22:28:43.456 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-23 22:30:51.512 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 03:58:46.633 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 04:12:40.533 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 04:12:42.518 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 04:12:42.548 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 04:12:42.581 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 04:12:43.066 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 04:12:43.087 [main]LoggerLoad-***user sends the get batchid request****
+[INFO ]2023-07-24 04:12:43.208 [main]LoggerLoad-User gets the batch with batchID :0
+[INFO ]2023-07-24 04:17:34.609 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 04:17:36.516 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 04:17:36.540 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 04:17:36.569 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 04:17:37.020 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 04:17:37.040 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/00
+[INFO ]2023-07-24 04:17:37.172 [main]LoggerLoad-User gets the batch with batchID :0
+[INFO ]2023-07-24 04:26:22.318 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 04:26:24.270 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 04:26:24.299 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 04:26:24.339 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 04:26:24.810 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 04:26:24.827 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/00
+[INFO ]2023-07-24 04:26:24.989 [main]LoggerLoad-User gets the batch with batchID :0
+[INFO ]2023-07-24 04:33:52.063 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 04:33:54.024 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 04:33:54.048 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 04:33:54.077 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 04:33:54.606 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 04:33:54.627 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/00
+[INFO ]2023-07-24 04:33:54.771 [main]LoggerLoad-User gets the batch with batchID :0
+[INFO ]2023-07-24 04:36:17.693 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 04:36:19.499 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 04:36:19.522 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 04:36:19.545 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 04:36:19.749 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 04:36:19.754 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 04:36:19.974 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 04:36:19.991 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69126912
+[INFO ]2023-07-24 04:36:20.110 [main]LoggerLoad-User gets the batch with batchID :6912
+[INFO ]2023-07-24 04:44:08.675 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 04:44:11.192 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 04:44:11.229 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 04:44:11.280 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 04:44:11.606 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 04:44:11.613 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 04:44:11.879 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 04:44:11.909 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69136913
+[INFO ]2023-07-24 04:44:12.103 [main]LoggerLoad-User gets the batch with batchID :6913
+[INFO ]2023-07-24 04:44:12.105 [main]LoggerLoad-asserting the batchID 6913
+[INFO ]2023-07-24 04:45:19.778 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 04:45:21.770 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 04:45:21.794 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 04:45:21.817 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 04:45:22.118 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 04:45:22.121 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 04:45:22.390 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 04:45:22.410 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69146914
+[INFO ]2023-07-24 04:45:22.520 [main]LoggerLoad-User gets the batch with batchID :6914
+[INFO ]2023-07-24 04:47:45.000 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 04:47:46.867 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 04:47:47.401 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 04:47:47.429 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/00
+[INFO ]2023-07-24 04:47:47.598 [main]LoggerLoad-User gets the batch with batchID :0
+[INFO ]2023-07-24 04:48:43.847 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 04:48:45.688 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 04:48:45.710 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 04:48:45.748 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 04:48:45.968 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 04:48:45.971 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 04:48:46.262 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 04:48:46.283 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69156915
+[INFO ]2023-07-24 04:48:46.406 [main]LoggerLoad-User gets the batch with batchID :6915
+[INFO ]2023-07-24 04:50:38.535 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 04:50:40.577 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 04:50:40.600 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 04:50:40.628 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 04:50:40.924 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 04:50:40.930 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 04:50:41.162 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 04:50:41.178 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69166916
+[INFO ]2023-07-24 04:50:41.331 [main]LoggerLoad-User gets the batch with batchID :6916
+[INFO ]2023-07-24 04:50:41.378 [main]LoggerLoad-asserting the batchID 6916
+[INFO ]2023-07-24 05:00:44.492 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 05:00:46.376 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 05:00:46.397 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:00:46.419 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 05:00:46.635 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 05:00:46.638 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:00:46.854 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 05:00:46.876 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69176917
+[INFO ]2023-07-24 05:00:47.065 [main]LoggerLoad-User gets the batch with batchID :6917
+[INFO ]2023-07-24 05:00:47.123 [main]LoggerLoad-asserting the batchID 6917
+[INFO ]2023-07-24 05:11:21.716 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 05:11:23.723 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 05:11:23.749 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:11:23.774 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 05:11:24.020 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 05:11:24.023 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:11:24.259 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 05:11:24.278 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69186918
+[INFO ]2023-07-24 05:11:24.390 [main]LoggerLoad-User gets the batch with batchID :6918
+[INFO ]2023-07-24 05:11:24.508 [main]LoggerLoad-Usr gets the batch info by batch nameSDET552
+[INFO ]2023-07-24 05:11:24.625 [main]LoggerLoad-user sends the get request : SDET552
+[INFO ]2023-07-24 05:11:24.689 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12500
+[INFO ]2023-07-24 05:11:24.808 [main]LoggerLoad-user gets the batch by programid : 12500
+[INFO ]2023-07-24 05:12:35.747 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 05:12:37.627 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 05:12:37.651 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:12:37.679 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 05:12:37.931 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 05:12:37.935 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:12:38.219 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 05:12:38.240 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69196919
+[INFO ]2023-07-24 05:12:38.377 [main]LoggerLoad-User gets the batch with batchID :6919
+[INFO ]2023-07-24 05:12:38.486 [main]LoggerLoad-Usr gets the batch info by batch nameSDET234
+[INFO ]2023-07-24 05:12:38.605 [main]LoggerLoad-user sends the get request : SDET234
+[INFO ]2023-07-24 05:12:38.660 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12501
+[INFO ]2023-07-24 05:12:38.786 [main]LoggerLoad-user gets the batch by programid : 12501
+[INFO ]2023-07-24 05:15:28.703 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 05:15:30.492 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 05:15:30.514 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:15:30.534 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 05:15:30.785 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 05:15:30.787 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:15:31.057 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 05:15:31.073 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69206920
+[INFO ]2023-07-24 05:15:31.187 [main]LoggerLoad-User gets the batch with batchID :6920
+[INFO ]2023-07-24 05:15:31.315 [main]LoggerLoad-Usr gets the batch info by batch nameSDET675
+[INFO ]2023-07-24 05:15:31.463 [main]LoggerLoad-user sends the get request : SDET675
+[INFO ]2023-07-24 05:15:31.490 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12504
+[INFO ]2023-07-24 05:15:31.613 [main]LoggerLoad-user gets the batch by programid : 12504
+[INFO ]2023-07-24 05:19:16.842 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 05:19:18.720 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 05:19:18.745 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:19:18.767 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 05:19:19.040 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 05:19:19.043 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:19:19.291 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 05:19:19.311 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69216921
+[INFO ]2023-07-24 05:19:19.488 [main]LoggerLoad-User gets the batch with batchID :6921
+[INFO ]2023-07-24 05:19:19.586 [main]LoggerLoad-Usr gets the batch info by batch nameSDET973
+[INFO ]2023-07-24 05:19:19.740 [main]LoggerLoad-user sends the get request : SDET973
+[INFO ]2023-07-24 05:19:19.780 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12506
+[INFO ]2023-07-24 05:19:19.933 [main]LoggerLoad-user gets the batch by programid : 12506
+[INFO ]2023-07-24 05:26:04.054 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 05:26:05.961 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 05:26:05.986 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:26:06.014 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 05:26:06.279 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 05:26:06.282 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:26:06.573 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 05:26:06.591 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69226922
+[INFO ]2023-07-24 05:26:06.713 [main]LoggerLoad-User gets the batch with batchID :6922
+[INFO ]2023-07-24 05:26:06.746 [main]LoggerLoad-Usr gets the batch info by batch nameSDET443
+[INFO ]2023-07-24 05:26:06.899 [main]LoggerLoad-user sends the get request : SDET443
+[INFO ]2023-07-24 05:26:06.918 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12508
+[INFO ]2023-07-24 05:26:07.045 [main]LoggerLoad-user gets the batch by programid : 12508
+[INFO ]2023-07-24 05:27:02.831 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 05:27:04.645 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 05:27:04.668 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:27:04.694 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 05:27:04.944 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 05:27:04.947 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:27:05.195 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 05:27:05.215 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69236923
+[INFO ]2023-07-24 05:27:05.381 [main]LoggerLoad-User gets the batch with batchID :6923
+[INFO ]2023-07-24 05:27:05.492 [main]LoggerLoad-Usr gets the batch info by batch nameSDET968
+[INFO ]2023-07-24 05:27:05.678 [main]LoggerLoad-user sends the get request : SDET968
+[INFO ]2023-07-24 05:27:05.707 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12509
+[INFO ]2023-07-24 05:27:05.871 [main]LoggerLoad-user gets the batch by programid : 12509
+[INFO ]2023-07-24 05:31:35.107 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 05:31:37.123 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 05:31:37.150 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:31:37.188 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 05:31:37.962 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 05:31:37.988 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/nullnull
+[INFO ]2023-07-24 05:31:38.212 [main]LoggerLoad-User gets the batch with batchID :null
+[INFO ]2023-07-24 05:31:38.239 [main]LoggerLoad-Usr gets the batch info by batch namenull
+[INFO ]2023-07-24 05:31:38.376 [main]LoggerLoad-user sends the get request : null
+[INFO ]2023-07-24 05:31:38.406 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12510
+[INFO ]2023-07-24 05:31:38.568 [main]LoggerLoad-user gets the batch by programid : 12510
+[INFO ]2023-07-24 05:32:53.160 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 05:32:55.774 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 05:32:55.804 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:32:55.840 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 05:32:56.120 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 05:32:56.124 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:32:56.387 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 05:32:56.409 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69256925
+[INFO ]2023-07-24 05:32:56.537 [main]LoggerLoad-User gets the batch with batchID :6925
+[INFO ]2023-07-24 05:32:56.563 [main]LoggerLoad-Usr gets the batch info by batch nameSDET067
+[INFO ]2023-07-24 05:32:56.746 [main]LoggerLoad-user sends the get request : SDET067
+[INFO ]2023-07-24 05:32:56.770 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12512
+[INFO ]2023-07-24 05:32:56.901 [main]LoggerLoad-user gets the batch by programid : 12512
+[INFO ]2023-07-24 05:36:49.158 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 05:36:51.047 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 05:36:51.073 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:36:51.099 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 05:36:51.399 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 05:36:51.402 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:36:51.629 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 05:36:51.647 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69266926
+[INFO ]2023-07-24 05:36:51.802 [main]LoggerLoad-User gets the batch with batchID :6926
+[INFO ]2023-07-24 05:36:51.814 [main]LoggerLoad-Usr gets the batch info by batch nameSDET080
+[INFO ]2023-07-24 05:36:51.930 [main]LoggerLoad-user sends the get request : SDET080
+[INFO ]2023-07-24 05:36:52.000 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12513
+[INFO ]2023-07-24 05:36:52.130 [main]LoggerLoad-user gets the batch by programid : 12513
+[INFO ]2023-07-24 05:37:15.434 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 05:37:17.357 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 05:37:17.382 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:37:17.405 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 05:37:17.639 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 05:37:17.642 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:37:17.907 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 05:37:17.926 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69276927
+[INFO ]2023-07-24 05:37:18.062 [main]LoggerLoad-User gets the batch with batchID :6927
+[INFO ]2023-07-24 05:37:18.150 [main]LoggerLoad-Usr gets the batch info by batch nameSDET869
+[INFO ]2023-07-24 05:37:18.305 [main]LoggerLoad-user sends the get request : SDET869
+[INFO ]2023-07-24 05:37:18.333 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12514
+[INFO ]2023-07-24 05:37:18.482 [main]LoggerLoad-user gets the batch by programid : 12514
+[INFO ]2023-07-24 05:40:45.689 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 05:40:47.639 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 05:40:47.661 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:40:47.690 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 05:40:47.929 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 05:40:47.931 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:40:48.177 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 05:40:48.196 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69286928
+[INFO ]2023-07-24 05:40:48.311 [main]LoggerLoad-User gets the batch with batchID :6928
+[INFO ]2023-07-24 05:40:48.312 [main]LoggerLoad-asserting the batchID 6928
+[INFO ]2023-07-24 05:40:48.334 [main]LoggerLoad-Usr gets the batch info by batch nameSDET297
+[INFO ]2023-07-24 05:40:48.500 [main]LoggerLoad-user sends the get request : SDET297
+[INFO ]2023-07-24 05:40:48.501 [main]LoggerLoad-asserting the batchID 6928
+[INFO ]2023-07-24 05:40:48.518 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12515
+[INFO ]2023-07-24 05:40:48.637 [main]LoggerLoad-user gets the batch by programid : 12515
+[INFO ]2023-07-24 05:40:48.638 [main]LoggerLoad-asserting the batchID 6928
+[INFO ]2023-07-24 05:42:35.483 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 05:42:37.406 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 05:42:37.433 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:42:37.462 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 05:42:37.727 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 05:42:37.730 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:42:37.951 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 05:42:37.971 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69296929
+[INFO ]2023-07-24 05:42:38.091 [main]LoggerLoad-User gets the batch with batchID :6929
+[INFO ]2023-07-24 05:42:38.116 [main]LoggerLoad-Usr gets the batch info by batch nameSDET348
+[INFO ]2023-07-24 05:42:38.267 [main]LoggerLoad-user sends the get request : SDET348
+[INFO ]2023-07-24 05:42:38.281 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12516
+[INFO ]2023-07-24 05:42:38.406 [main]LoggerLoad-user gets the batch by programid : 12516
+[INFO ]2023-07-24 05:44:30.543 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 05:44:32.453 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 05:44:32.487 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:44:32.523 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 05:44:32.769 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 05:44:32.772 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:44:33.021 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 05:44:33.064 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69306930
+[INFO ]2023-07-24 05:44:33.205 [main]LoggerLoad-User gets the batch with batchID :6930
+[INFO ]2023-07-24 05:44:33.230 [main]LoggerLoad-Usr gets the batch info by batch nameSDET070
+[INFO ]2023-07-24 05:44:33.390 [main]LoggerLoad-user sends the get request : SDET070
+[INFO ]2023-07-24 05:44:33.407 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12517
+[INFO ]2023-07-24 05:44:33.500 [main]LoggerLoad-user gets the batch by programid : 12517
+[INFO ]2023-07-24 05:45:26.239 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 05:45:28.126 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 05:45:28.153 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:45:28.174 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 05:45:28.380 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 05:45:28.384 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:45:28.676 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 05:45:28.713 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69316931
+[INFO ]2023-07-24 05:45:28.857 [main]LoggerLoad-User gets the batch with batchID :6931
+[INFO ]2023-07-24 05:45:28.879 [main]LoggerLoad-Usr gets the batch info by batch nameSDET975
+[INFO ]2023-07-24 05:45:29.041 [main]LoggerLoad-user sends the get request : SDET975
+[INFO ]2023-07-24 05:45:29.058 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12518
+[INFO ]2023-07-24 05:45:29.213 [main]LoggerLoad-user gets the batch by programid : 12518
+[INFO ]2023-07-24 05:46:53.046 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 05:46:54.999 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 05:46:55.025 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:46:55.051 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 05:46:55.303 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 05:46:55.306 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:46:55.557 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 05:46:55.601 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69326932
+[INFO ]2023-07-24 05:46:55.715 [main]LoggerLoad-User gets the batch with batchID :6932
+[INFO ]2023-07-24 05:46:55.734 [main]LoggerLoad-Usr gets the batch info by batch nameSDET129
+[INFO ]2023-07-24 05:46:55.870 [main]LoggerLoad-user sends the get request : SDET129
+[INFO ]2023-07-24 05:46:55.892 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12519
+[INFO ]2023-07-24 05:46:56.052 [main]LoggerLoad-user gets the batch by programid : 12519
+[INFO ]2023-07-24 05:47:57.826 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 05:47:59.659 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 05:47:59.689 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:47:59.718 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 05:47:59.974 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 05:47:59.977 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:48:00.182 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 05:48:00.222 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69346934
+[INFO ]2023-07-24 05:48:00.353 [main]LoggerLoad-User gets the batch with batchID :6934
+[INFO ]2023-07-24 05:48:00.375 [main]LoggerLoad-Usr gets the batch info by batch nameSDET728
+[INFO ]2023-07-24 05:48:00.467 [main]LoggerLoad-user sends the get request : SDET728
+[INFO ]2023-07-24 05:48:00.559 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12520
+[INFO ]2023-07-24 05:48:00.669 [main]LoggerLoad-user gets the batch by programid : 12520
+[INFO ]2023-07-24 05:52:15.697 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 05:52:17.683 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 05:52:18.131 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 05:52:18.152 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/00
+[INFO ]2023-07-24 05:52:18.249 [main]LoggerLoad-User gets the batch with batchID :0
+[INFO ]2023-07-24 05:52:18.273 [main]LoggerLoad-Usr gets the batch info by batch namenull
+[INFO ]2023-07-24 05:52:18.381 [main]LoggerLoad-user sends the get request : null
+[INFO ]2023-07-24 05:52:18.400 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/0
+[INFO ]2023-07-24 05:52:18.498 [main]LoggerLoad-user gets the batch by programid : 0
+[INFO ]2023-07-24 05:53:17.484 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 05:53:19.453 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 05:53:19.476 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:53:19.514 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 05:53:19.763 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 05:53:19.767 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:53:19.989 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 05:53:20.007 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69356935
+[INFO ]2023-07-24 05:53:20.150 [main]LoggerLoad-User gets the batch with batchID :6935
+[INFO ]2023-07-24 05:53:20.164 [main]LoggerLoad-*********Header validation for post request**********
+[INFO ]2023-07-24 05:53:20.188 [main]LoggerLoad-Usr gets the batch info by batch nameSDET460
+[INFO ]2023-07-24 05:53:20.293 [main]LoggerLoad-user sends the get request : SDET460
+[INFO ]2023-07-24 05:53:20.294 [main]LoggerLoad-asserting the batchID 6935
+[INFO ]2023-07-24 05:53:20.308 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12521
+[INFO ]2023-07-24 05:53:20.425 [main]LoggerLoad-user gets the batch by programid : 12521
+[INFO ]2023-07-24 05:53:20.426 [main]LoggerLoad-asserting the batchID 6935
+[INFO ]2023-07-24 05:55:30.904 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 05:55:32.795 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 05:55:32.820 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:55:32.846 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 05:55:33.091 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 05:55:33.094 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:55:33.378 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 05:55:33.395 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69366936
+[INFO ]2023-07-24 05:55:33.548 [main]LoggerLoad-User gets the batch with batchID :6936
+[INFO ]2023-07-24 05:55:33.561 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 05:55:33.604 [main]LoggerLoad-Usr gets the batch info by batch nameSDET607
+[INFO ]2023-07-24 05:55:33.751 [main]LoggerLoad-user sends the get request : SDET607
+[INFO ]2023-07-24 05:55:33.752 [main]LoggerLoad-asserting the batchID 6936
+[INFO ]2023-07-24 05:55:33.765 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12523
+[INFO ]2023-07-24 05:55:33.880 [main]LoggerLoad-user gets the batch by programid : 12523
+[INFO ]2023-07-24 05:55:33.881 [main]LoggerLoad-asserting the batchID 6936
+[INFO ]2023-07-24 05:58:56.839 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 05:58:58.728 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 05:58:58.759 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:58:58.788 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 05:58:59.031 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 05:58:59.036 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:58:59.268 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 05:58:59.287 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69376937
+[INFO ]2023-07-24 05:58:59.405 [main]LoggerLoad-User gets the batch with batchID :6937
+[INFO ]2023-07-24 05:58:59.417 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 05:58:59.452 [main]LoggerLoad-Usr gets the batch info by batch nameSDET627
+[INFO ]2023-07-24 05:58:59.542 [main]LoggerLoad-user sends the get request : SDET627
+[INFO ]2023-07-24 05:58:59.542 [main]LoggerLoad-asserting the batchID 6937
+[INFO ]2023-07-24 05:58:59.554 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12524
+[INFO ]2023-07-24 05:58:59.668 [main]LoggerLoad-user gets the batch by programid : 12524
+[INFO ]2023-07-24 05:58:59.670 [main]LoggerLoad-asserting the batchID 6937
+[INFO ]2023-07-24 05:59:53.639 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 05:59:55.607 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 05:59:55.632 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:59:55.670 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 05:59:55.915 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 05:59:55.921 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 05:59:56.139 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 05:59:56.159 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69386938
+[INFO ]2023-07-24 05:59:56.262 [main]LoggerLoad-User gets the batch with batchID :6938
+[INFO ]2023-07-24 05:59:56.268 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 05:59:56.311 [main]LoggerLoad-Usr gets the batch info by batch nameSDET309
+[INFO ]2023-07-24 05:59:56.437 [main]LoggerLoad-user sends the get request : SDET309
+[INFO ]2023-07-24 05:59:56.439 [main]LoggerLoad-asserting the batchID 6938
+[INFO ]2023-07-24 05:59:56.456 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12525
+[INFO ]2023-07-24 05:59:56.606 [main]LoggerLoad-user gets the batch by programid : 12525
+[INFO ]2023-07-24 05:59:56.607 [main]LoggerLoad-asserting the batchID 6938
+[INFO ]2023-07-24 05:59:56.736 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 06:02:22.538 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 06:02:24.438 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 06:02:24.472 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 06:02:24.517 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 06:02:24.781 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 06:02:24.785 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 06:02:25.026 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 06:02:25.042 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69396939
+[INFO ]2023-07-24 06:02:25.161 [main]LoggerLoad-User gets the batch with batchID :6939
+[INFO ]2023-07-24 06:02:25.168 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 06:02:25.203 [main]LoggerLoad-Usr gets the batch info by batch nameSDET960
+[INFO ]2023-07-24 06:02:25.344 [main]LoggerLoad-user sends the get request : SDET960
+[INFO ]2023-07-24 06:02:25.345 [main]LoggerLoad-asserting the batchID 6939
+[INFO ]2023-07-24 06:02:25.355 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12526
+[INFO ]2023-07-24 06:02:25.483 [main]LoggerLoad-user gets the batch by programid : 12526
+[INFO ]2023-07-24 06:02:25.483 [main]LoggerLoad-asserting the batchID 6939
+[INFO ]2023-07-24 06:02:25.677 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 06:19:31.281 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 06:19:34.288 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 06:19:34.327 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 06:19:34.373 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 06:19:34.721 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 06:19:34.727 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 06:19:35.040 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 06:19:35.077 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69406940
+[INFO ]2023-07-24 06:19:35.193 [main]LoggerLoad-User gets the batch with batchID :6940
+[INFO ]2023-07-24 06:19:35.194 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 06:19:35.249 [main]LoggerLoad-Usr gets the batch info by batch nameSDET668
+[INFO ]2023-07-24 06:19:35.368 [main]LoggerLoad-user sends the get request : SDET668
+[INFO ]2023-07-24 06:19:35.386 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12530
+[INFO ]2023-07-24 06:19:35.573 [main]LoggerLoad-user gets the batch by programid : 12530
+[INFO ]2023-07-24 06:19:35.715 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 06:21:48.329 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 06:21:52.193 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 06:21:52.230 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 06:21:52.273 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 06:21:52.629 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 06:21:52.633 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 06:21:52.909 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 06:21:52.939 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69416941
+[INFO ]2023-07-24 06:21:53.080 [main]LoggerLoad-User gets the batch with batchID :6941
+[INFO ]2023-07-24 06:21:53.081 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 06:21:53.119 [main]LoggerLoad-Usr gets the batch info by batch nameSDET282
+[INFO ]2023-07-24 06:21:53.243 [main]LoggerLoad-user sends the get request : SDET282
+[INFO ]2023-07-24 06:21:53.261 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12531
+[INFO ]2023-07-24 06:21:53.368 [main]LoggerLoad-user gets the batch by programid : 12531
+[INFO ]2023-07-24 06:21:53.550 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 06:22:32.995 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 06:22:35.950 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 06:22:35.991 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 06:22:36.054 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 06:22:36.449 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 06:22:36.454 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 06:22:36.693 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 06:22:36.728 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69426942
+[INFO ]2023-07-24 06:22:36.913 [main]LoggerLoad-User gets the batch with batchID :6942
+[INFO ]2023-07-24 06:22:36.914 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 06:22:36.953 [main]LoggerLoad-Usr gets the batch info by batch nameSDET867
+[INFO ]2023-07-24 06:22:37.110 [main]LoggerLoad-user sends the get request : SDET867
+[INFO ]2023-07-24 06:22:37.130 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12532
+[INFO ]2023-07-24 06:22:37.248 [main]LoggerLoad-user gets the batch by programid : 12532
+[INFO ]2023-07-24 06:22:37.446 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 06:43:11.109 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 06:43:14.439 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 06:43:14.476 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 06:43:14.517 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 06:43:14.823 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 06:43:14.827 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 06:43:15.150 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 06:43:15.181 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69436943
+[INFO ]2023-07-24 06:43:15.337 [main]LoggerLoad-User gets the batch with batchID :6943
+[INFO ]2023-07-24 06:43:15.353 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 06:43:15.450 [main]LoggerLoad-Usr gets the batch info by batch nameSDET480
+[INFO ]2023-07-24 06:43:15.576 [main]LoggerLoad-user sends the get request : SDET480
+[INFO ]2023-07-24 06:43:15.578 [main]LoggerLoad-asserting the batchID 6943
+[INFO ]2023-07-24 06:43:15.605 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12535
+[INFO ]2023-07-24 06:43:15.780 [main]LoggerLoad-user gets the batch by programid : 12535
+[INFO ]2023-07-24 06:43:15.781 [main]LoggerLoad-asserting the batchID 6943
+[INFO ]2023-07-24 06:43:15.809 [main]LoggerLoad-User is given with the baseurl and update batch endpoint
+[INFO ]2023-07-24 06:43:16.241 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 06:45:47.222 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 06:45:50.316 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 06:45:50.356 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 06:45:50.406 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 06:45:50.840 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 06:45:50.845 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 06:45:51.219 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 06:45:51.253 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69446944
+[INFO ]2023-07-24 06:45:51.391 [main]LoggerLoad-User gets the batch with batchID :6944
+[INFO ]2023-07-24 06:45:51.401 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 06:45:51.464 [main]LoggerLoad-Usr gets the batch info by batch nameSDET225
+[INFO ]2023-07-24 06:45:51.638 [main]LoggerLoad-user sends the get request : SDET225
+[INFO ]2023-07-24 06:45:51.639 [main]LoggerLoad-asserting the batchID 6944
+[INFO ]2023-07-24 06:45:51.660 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12536
+[INFO ]2023-07-24 06:45:51.799 [main]LoggerLoad-user gets the batch by programid : 12536
+[INFO ]2023-07-24 06:45:51.800 [main]LoggerLoad-asserting the batchID 6944
+[INFO ]2023-07-24 06:45:51.831 [main]LoggerLoad-User is given with the baseurl and update batch endpoint
+[INFO ]2023-07-24 06:45:52.316 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 06:46:44.607 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 06:46:47.774 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 06:46:47.811 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 06:46:47.857 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 06:46:50.017 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 06:46:50.020 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 06:46:50.356 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 06:46:50.385 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69456945
+[INFO ]2023-07-24 06:46:50.523 [main]LoggerLoad-User gets the batch with batchID :6945
+[INFO ]2023-07-24 06:46:50.534 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 06:46:50.598 [main]LoggerLoad-Usr gets the batch info by batch nameSDET745
+[INFO ]2023-07-24 06:46:50.765 [main]LoggerLoad-user sends the get request : SDET745
+[INFO ]2023-07-24 06:46:50.766 [main]LoggerLoad-asserting the batchID 6945
+[INFO ]2023-07-24 06:46:50.798 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12538
+[INFO ]2023-07-24 06:46:50.940 [main]LoggerLoad-user gets the batch by programid : 12538
+[INFO ]2023-07-24 06:46:50.941 [main]LoggerLoad-asserting the batchID 6945
+[INFO ]2023-07-24 06:46:50.958 [main]LoggerLoad-User is given with the baseurl and update batch endpoint
+[INFO ]2023-07-24 06:46:51.224 [main]LoggerLoad-****************batch is updated*********************
+[INFO ]2023-07-24 06:46:51.418 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 06:47:37.067 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 06:47:40.256 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 06:47:40.293 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 06:47:40.356 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 06:47:40.707 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 06:47:40.711 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 06:47:41.001 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 06:47:41.032 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69466946
+[INFO ]2023-07-24 06:47:41.195 [main]LoggerLoad-User gets the batch with batchID :6946
+[INFO ]2023-07-24 06:47:41.206 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 06:47:41.252 [main]LoggerLoad-Usr gets the batch info by batch nameSDET845
+[INFO ]2023-07-24 06:47:41.382 [main]LoggerLoad-user sends the get request : SDET845
+[INFO ]2023-07-24 06:47:41.383 [main]LoggerLoad-asserting the batchID 6946
+[INFO ]2023-07-24 06:47:41.405 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12539
+[INFO ]2023-07-24 06:47:41.581 [main]LoggerLoad-user gets the batch by programid : 12539
+[INFO ]2023-07-24 06:47:41.582 [main]LoggerLoad-asserting the batchID 6946
+[INFO ]2023-07-24 06:47:41.618 [main]LoggerLoad-User is given with the baseurl and update batch endpoint
+[INFO ]2023-07-24 06:47:41.893 [main]LoggerLoad-****************batch is updated*********************
+[INFO ]2023-07-24 06:47:42.100 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 06:49:56.948 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 06:50:00.384 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 06:50:00.424 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 06:50:00.482 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 06:50:00.920 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 06:50:00.925 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 06:50:01.237 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 06:50:01.267 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69476947
+[INFO ]2023-07-24 06:50:01.415 [main]LoggerLoad-User gets the batch with batchID :6947
+[INFO ]2023-07-24 06:50:01.424 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 06:50:01.488 [main]LoggerLoad-Usr gets the batch info by batch nameSDET797
+[INFO ]2023-07-24 06:50:01.661 [main]LoggerLoad-user sends the get request : SDET797
+[INFO ]2023-07-24 06:50:01.662 [main]LoggerLoad-asserting the batchID 6947
+[INFO ]2023-07-24 06:50:01.680 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12540
+[INFO ]2023-07-24 06:50:01.846 [main]LoggerLoad-user gets the batch by programid : 12540
+[INFO ]2023-07-24 06:50:01.847 [main]LoggerLoad-asserting the batchID 6947
+[INFO ]2023-07-24 06:50:01.870 [main]LoggerLoad-User is given with the baseurl and update batch endpoint
+[INFO ]2023-07-24 06:50:02.102 [main]LoggerLoad-****************batch is updated*********************
+[INFO ]2023-07-24 06:50:02.303 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 06:51:47.849 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 06:51:51.195 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 06:51:51.235 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 06:51:51.285 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 06:51:51.659 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 06:51:51.662 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 06:51:51.947 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 06:51:51.975 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69486948
+[INFO ]2023-07-24 06:51:52.149 [main]LoggerLoad-User gets the batch with batchID :6948
+[INFO ]2023-07-24 06:51:52.159 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 06:51:52.211 [main]LoggerLoad-Usr gets the batch info by batch nameSDET817
+[INFO ]2023-07-24 06:51:52.347 [main]LoggerLoad-user sends the get request : SDET817
+[INFO ]2023-07-24 06:51:52.348 [main]LoggerLoad-asserting the batchID 6948
+[INFO ]2023-07-24 06:51:52.368 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12541
+[INFO ]2023-07-24 06:51:52.513 [main]LoggerLoad-user gets the batch by programid : 12541
+[INFO ]2023-07-24 06:51:52.514 [main]LoggerLoad-asserting the batchID 6948
+[INFO ]2023-07-24 06:51:52.536 [main]LoggerLoad-User is given with the baseurl and update batch endpoint
+[INFO ]2023-07-24 06:51:52.749 [main]LoggerLoad-****************batch is updated*********************
+[INFO ]2023-07-24 06:51:52.751 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 06:51:53.208 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 06:55:45.011 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 06:55:48.114 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 06:55:48.160 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 06:55:48.226 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 06:55:48.687 [main]LoggerLoad-****************batch is created valid data*********************
+[INFO ]2023-07-24 06:55:48.691 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 06:55:48.980 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 06:55:49.010 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69496949
+[INFO ]2023-07-24 06:55:49.185 [main]LoggerLoad-User gets the batch with batchID :6949
+[INFO ]2023-07-24 06:55:49.200 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 06:55:49.286 [main]LoggerLoad-Usr gets the batch info by batch name24Jul-RestingNinjas-SDET-SDET2825
+[INFO ]2023-07-24 06:55:49.472 [main]LoggerLoad-user sends the get request : 24Jul-RestingNinjas-SDET-SDET2825
+[INFO ]2023-07-24 06:55:49.473 [main]LoggerLoad-asserting the batchID 6949
+[INFO ]2023-07-24 06:55:49.500 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12542
+[INFO ]2023-07-24 06:55:49.667 [main]LoggerLoad-user gets the batch by programid : 12542
+[INFO ]2023-07-24 06:55:49.668 [main]LoggerLoad-asserting the batchID 6949
+[INFO ]2023-07-24 06:55:49.696 [main]LoggerLoad-User is given with the baseurl and update batch endpoint
+[INFO ]2023-07-24 06:55:49.943 [main]LoggerLoad-****************batch is updated*********************
+[INFO ]2023-07-24 06:55:49.945 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 06:55:50.123 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 06:57:17.304 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/allPrograms
+[INFO ]2023-07-24 06:57:18.866 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 06:57:18.907 [main]LoggerLoad-get Request Successful
+[INFO ]2023-07-24 06:57:18.952 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 06:57:20.971 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 06:57:20.977 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 06:57:21.027 [main]LoggerLoad-*********Header validation for post request**********
+[INFO ]2023-07-24 06:57:21.033 [main]LoggerLoad-statusline
+[INFO ]2023-07-24 06:57:21.084 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/
+[INFO ]2023-07-24 06:57:21.288 [main]LoggerLoad-***user sends the get request by sending the program id***
+[INFO ]2023-07-24 06:57:21.344 [main]LoggerLoad-**************getting the baseurl and endpoint for post to resend the data for negative scenario**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 06:57:21.625 [main]LoggerLoad-****************Sending the request with same data to create should get error 400*********************
+[INFO ]2023-07-24 06:57:21.627 [main]LoggerLoad-Not Successful: 400
+[INFO ]2023-07-24 06:57:21.629 [main]LoggerLoad-*********Header validation for post request**********
+[INFO ]2023-07-24 06:57:21.630 [main]LoggerLoad-statusline
+[INFO ]2023-07-24 06:57:21.657 [main]LoggerLoad-******given with the baseurl and endpoint for update program status with programid*******
+[INFO ]2023-07-24 06:57:21.924 [main]LoggerLoad-****************successfully updated with programid*********************
+[INFO ]2023-07-24 06:57:21.927 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 06:57:21.951 [main]LoggerLoad-**********Given baseurl and endpoint for update program with name*********
+[INFO ]2023-07-24 06:57:22.206 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-24 06:57:22.208 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 06:57:22.389 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 06:57:22.415 [main]LoggerLoad-**************given baseurl and endpoint to delete program with porgram id****************
+[INFO ]2023-07-24 06:57:22.597 [main]LoggerLoad-Not Successful: 400
+[INFO ]2023-07-24 06:57:22.633 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 06:57:22.900 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 06:57:22.902 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 06:57:22.923 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 06:57:23.210 [main]LoggerLoad-****************batch is created valid data*********************
+[INFO ]2023-07-24 06:57:23.212 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 06:57:23.512 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 06:57:23.536 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69516951
+[INFO ]2023-07-24 06:57:23.685 [main]LoggerLoad-User gets the batch with batchID :6951
+[INFO ]2023-07-24 06:57:23.690 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 06:57:23.713 [main]LoggerLoad-Usr gets the batch info by batch name24Jul-RestingNinjas-SDET-SDET2286
+[INFO ]2023-07-24 06:57:23.901 [main]LoggerLoad-user sends the get request : 24Jul-RestingNinjas-SDET-SDET2286
+[INFO ]2023-07-24 06:57:23.902 [main]LoggerLoad-asserting the batchID 6951
+[INFO ]2023-07-24 06:57:23.922 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12545
+[INFO ]2023-07-24 06:57:24.103 [main]LoggerLoad-user gets the batch by programid : 12545
+[INFO ]2023-07-24 06:57:24.105 [main]LoggerLoad-asserting the batchID 6951
+[INFO ]2023-07-24 06:57:24.131 [main]LoggerLoad-User is given with the baseurl and update batch endpoint
+[INFO ]2023-07-24 06:57:24.374 [main]LoggerLoad-****************batch is updated*********************
+[INFO ]2023-07-24 06:57:24.375 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 06:57:24.576 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 07:02:28.529 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/allPrograms
+[INFO ]2023-07-24 07:02:29.886 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 07:02:29.936 [main]LoggerLoad-get Request Successful
+[INFO ]2023-07-24 07:02:30.002 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 07:02:31.994 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 07:02:32.000 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:02:32.061 [main]LoggerLoad-*********Header validation for post request**********
+[INFO ]2023-07-24 07:02:32.068 [main]LoggerLoad-statusline
+[INFO ]2023-07-24 07:02:32.116 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/
+[INFO ]2023-07-24 07:02:32.307 [main]LoggerLoad-***user sends the get request by sending the program id***
+[INFO ]2023-07-24 07:02:32.365 [main]LoggerLoad-**************getting the baseurl and endpoint for post to resend the data for negative scenario**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 07:02:32.676 [main]LoggerLoad-****************Sending the request with same data to create should get error 400*********************
+[INFO ]2023-07-24 07:02:32.678 [main]LoggerLoad-Not Successful: 400
+[INFO ]2023-07-24 07:02:32.681 [main]LoggerLoad-*********Header validation for post request**********
+[INFO ]2023-07-24 07:02:32.682 [main]LoggerLoad-statusline
+[INFO ]2023-07-24 07:02:32.712 [main]LoggerLoad-******given with the baseurl and endpoint for update program status with programid*******
+[INFO ]2023-07-24 07:02:33.033 [main]LoggerLoad-****************successfully updated with programid*********************
+[INFO ]2023-07-24 07:02:33.036 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:02:33.067 [main]LoggerLoad-**********Given baseurl and endpoint for update program with name*********
+[INFO ]2023-07-24 07:02:33.310 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-24 07:02:33.312 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:02:33.492 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:02:33.515 [main]LoggerLoad-**************given baseurl and endpoint to delete program with porgram id****************
+[INFO ]2023-07-24 07:02:33.671 [main]LoggerLoad-Not Successful: 400
+[INFO ]2023-07-24 07:02:33.717 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 07:02:33.967 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 07:02:33.969 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:02:33.994 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 07:02:34.336 [main]LoggerLoad-****************batch is created valid data*********************
+[INFO ]2023-07-24 07:02:34.340 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:02:34.558 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 07:02:34.575 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69526952
+[INFO ]2023-07-24 07:02:34.785 [main]LoggerLoad-User gets the batch with batchID :6952
+[INFO ]2023-07-24 07:02:34.790 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 07:02:34.807 [main]LoggerLoad-Usr gets the batch info by batch name24Jul-RestingNinjas-SDET-SDET4494
+[INFO ]2023-07-24 07:02:34.956 [main]LoggerLoad-user sends the get request : 24Jul-RestingNinjas-SDET-SDET4494
+[INFO ]2023-07-24 07:02:34.957 [main]LoggerLoad-asserting the batchID 6952
+[INFO ]2023-07-24 07:02:34.979 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12548
+[INFO ]2023-07-24 07:02:35.147 [main]LoggerLoad-user gets the batch by programid : 12548
+[INFO ]2023-07-24 07:02:35.147 [main]LoggerLoad-asserting the batchID 6952
+[INFO ]2023-07-24 07:02:35.163 [main]LoggerLoad-User is given with the baseurl and update batch endpoint
+[INFO ]2023-07-24 07:02:35.389 [main]LoggerLoad-****************batch is updated*********************
+[INFO ]2023-07-24 07:02:35.391 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 07:02:35.548 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 07:06:56.560 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/allPrograms
+[INFO ]2023-07-24 07:06:57.951 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 07:06:58.067 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 07:07:00.034 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 07:07:00.084 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:07:00.141 [main]LoggerLoad-*********Header validation for post request**********
+[INFO ]2023-07-24 07:07:00.145 [main]LoggerLoad-statusline
+[INFO ]2023-07-24 07:07:00.189 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/
+[INFO ]2023-07-24 07:07:00.331 [main]LoggerLoad-***user sends the get request by sending the program id***
+[INFO ]2023-07-24 07:07:00.362 [main]LoggerLoad-**************getting the baseurl and endpoint for post to resend the data for negative scenario**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 07:07:00.697 [main]LoggerLoad-****************Sending the request with same data to create should get error 400*********************
+[INFO ]2023-07-24 07:07:00.698 [main]LoggerLoad-Not Successful: 400
+[INFO ]2023-07-24 07:07:00.700 [main]LoggerLoad-*********Header validation for post request**********
+[INFO ]2023-07-24 07:07:00.701 [main]LoggerLoad-statusline
+[INFO ]2023-07-24 07:07:00.723 [main]LoggerLoad-******given with the baseurl and endpoint for update program status with programid*******
+[INFO ]2023-07-24 07:07:00.980 [main]LoggerLoad-****************successfully updated with programid*********************
+[INFO ]2023-07-24 07:07:00.981 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:07:01.004 [main]LoggerLoad-**********Given baseurl and endpoint for update program with name*********
+[INFO ]2023-07-24 07:07:01.212 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-24 07:07:01.214 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:07:01.410 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:07:01.439 [main]LoggerLoad-**************given baseurl and endpoint to delete program with porgram id****************
+[INFO ]2023-07-24 07:07:01.570 [main]LoggerLoad-Not Successful: 400
+[INFO ]2023-07-24 07:07:01.601 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 07:07:01.852 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 07:07:01.854 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:07:01.883 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 07:07:02.189 [main]LoggerLoad-****************batch is created valid data*********************
+[INFO ]2023-07-24 07:07:02.191 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:07:02.400 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 07:07:02.414 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69536953
+[INFO ]2023-07-24 07:07:02.588 [main]LoggerLoad-User gets the batch with batchID :6953
+[INFO ]2023-07-24 07:07:02.590 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 07:07:02.605 [main]LoggerLoad-Usr gets the batch info by batch name24Jul-RestingNinjas-SDET-SDET8854
+[INFO ]2023-07-24 07:07:02.725 [main]LoggerLoad-user sends the get request : 24Jul-RestingNinjas-SDET-SDET8854
+[INFO ]2023-07-24 07:07:02.725 [main]LoggerLoad-asserting the batchID 6953
+[INFO ]2023-07-24 07:07:02.737 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12551
+[INFO ]2023-07-24 07:07:02.861 [main]LoggerLoad-user gets the batch by programid : 12551
+[INFO ]2023-07-24 07:07:02.862 [main]LoggerLoad-asserting the batchID 6953
+[INFO ]2023-07-24 07:07:02.875 [main]LoggerLoad-User is given with the baseurl and update batch endpoint
+[INFO ]2023-07-24 07:07:03.105 [main]LoggerLoad-****************batch is updated*********************
+[INFO ]2023-07-24 07:07:03.106 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 07:07:03.267 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 07:08:43.919 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/allPrograms
+[INFO ]2023-07-24 07:08:45.793 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 07:08:45.947 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 07:08:48.332 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 07:08:48.404 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:08:48.506 [main]LoggerLoad-*********Header validation for post request**********
+[INFO ]2023-07-24 07:08:48.513 [main]LoggerLoad-statusline
+[INFO ]2023-07-24 07:08:48.571 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/
+[INFO ]2023-07-24 07:08:48.755 [main]LoggerLoad-***user sends the get request by sending the program id***
+[INFO ]2023-07-24 07:08:48.793 [main]LoggerLoad-**************getting the baseurl and endpoint for post to resend the data for negative scenario**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 07:08:49.188 [main]LoggerLoad-****************Sending the request with same data to create should get error 400*********************
+[INFO ]2023-07-24 07:08:49.190 [main]LoggerLoad-Not Successful: 400
+[INFO ]2023-07-24 07:08:49.194 [main]LoggerLoad-*********Header validation for post request**********
+[INFO ]2023-07-24 07:08:49.195 [main]LoggerLoad-statusline
+[INFO ]2023-07-24 07:08:49.236 [main]LoggerLoad-******given with the baseurl and endpoint for update program status with programid*******
+[INFO ]2023-07-24 07:08:49.676 [main]LoggerLoad-****************successfully updated with programid*********************
+[INFO ]2023-07-24 07:08:49.684 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:08:49.737 [main]LoggerLoad-**********Given baseurl and endpoint for update program with name*********
+[INFO ]2023-07-24 07:08:50.099 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-24 07:08:50.107 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:08:50.354 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:08:50.385 [main]LoggerLoad-**************given baseurl and endpoint to delete program with porgram id****************
+[INFO ]2023-07-24 07:08:50.533 [main]LoggerLoad-Not Successful: 400
+[INFO ]2023-07-24 07:08:50.590 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 07:08:50.884 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 07:08:50.886 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:08:50.926 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 07:08:51.259 [main]LoggerLoad-****************batch is created valid data*********************
+[INFO ]2023-07-24 07:08:51.262 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:08:51.482 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 07:08:51.508 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69556955
+[INFO ]2023-07-24 07:08:51.662 [main]LoggerLoad-User gets the batch with batchID :6955
+[INFO ]2023-07-24 07:08:51.670 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 07:08:51.703 [main]LoggerLoad-Usr gets the batch info by batch name24Jul-RestingNinjas-SDET-SDET8865
+[INFO ]2023-07-24 07:08:51.890 [main]LoggerLoad-user sends the get request : 24Jul-RestingNinjas-SDET-SDET8865
+[INFO ]2023-07-24 07:08:51.891 [main]LoggerLoad-asserting the batchID 6955
+[INFO ]2023-07-24 07:08:51.909 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12554
+[INFO ]2023-07-24 07:08:52.094 [main]LoggerLoad-user gets the batch by programid : 12554
+[INFO ]2023-07-24 07:08:52.096 [main]LoggerLoad-asserting the batchID 6955
+[INFO ]2023-07-24 07:08:52.122 [main]LoggerLoad-User is given with the baseurl and update batch endpoint
+[INFO ]2023-07-24 07:08:52.366 [main]LoggerLoad-****************batch is updated*********************
+[INFO ]2023-07-24 07:08:52.369 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 07:08:52.554 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 07:17:05.361 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/allPrograms
+[INFO ]2023-07-24 07:17:06.730 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 07:17:07.369 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 07:17:09.336 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 07:17:09.381 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:17:09.430 [main]LoggerLoad-*********Header validation for post request**********
+[INFO ]2023-07-24 07:17:09.436 [main]LoggerLoad-statusline
+[INFO ]2023-07-24 07:17:09.478 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/
+[INFO ]2023-07-24 07:17:09.609 [main]LoggerLoad-***user sends the get request by sending the program id***
+[INFO ]2023-07-24 07:17:09.651 [main]LoggerLoad-**************getting the baseurl and endpoint for post to resend the data for negative scenario**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 07:17:10.004 [main]LoggerLoad-****************Sending the request with same data to create should get error 400*********************
+[INFO ]2023-07-24 07:17:10.005 [main]LoggerLoad-Not Successful: 400
+[INFO ]2023-07-24 07:17:10.010 [main]LoggerLoad-*********Header validation for post request**********
+[INFO ]2023-07-24 07:17:10.010 [main]LoggerLoad-statusline
+[INFO ]2023-07-24 07:17:10.043 [main]LoggerLoad-******given with the baseurl and endpoint for update program status with programid*******
+[INFO ]2023-07-24 07:17:10.332 [main]LoggerLoad-****************successfully updated with programid*********************
+[INFO ]2023-07-24 07:17:10.335 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:17:10.360 [main]LoggerLoad-**********Given baseurl and endpoint for update program with name*********
+[INFO ]2023-07-24 07:17:10.592 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-24 07:17:10.594 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:17:10.770 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:17:10.797 [main]LoggerLoad-**************given baseurl and endpoint to delete program with porgram id****************
+[INFO ]2023-07-24 07:17:10.946 [main]LoggerLoad-Not Successful: 400
+[INFO ]2023-07-24 07:17:10.985 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 07:17:11.234 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 07:17:11.235 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:17:11.253 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 07:17:11.529 [main]LoggerLoad-****************batch is created valid data*********************
+[INFO ]2023-07-24 07:17:11.531 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:17:11.779 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 07:17:11.797 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69576957
+[INFO ]2023-07-24 07:17:11.923 [main]LoggerLoad-User gets the batch with batchID :6957
+[INFO ]2023-07-24 07:17:11.927 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 07:17:11.945 [main]LoggerLoad-Usr gets the batch info by batch name24Jul-RestingNinjas-SDET-SDET0372
+[INFO ]2023-07-24 07:17:12.086 [main]LoggerLoad-user sends the get request : 24Jul-RestingNinjas-SDET-SDET0372
+[INFO ]2023-07-24 07:17:12.087 [main]LoggerLoad-asserting the batchID 6957
+[INFO ]2023-07-24 07:17:12.103 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12557
+[INFO ]2023-07-24 07:17:12.259 [main]LoggerLoad-user gets the batch by programid : 12557
+[INFO ]2023-07-24 07:17:12.260 [main]LoggerLoad-asserting the batchID 6957
+[INFO ]2023-07-24 07:17:12.290 [main]LoggerLoad-User is given with the baseurl and update batch endpoint
+[INFO ]2023-07-24 07:17:12.468 [main]LoggerLoad-****************batch is updated*********************
+[INFO ]2023-07-24 07:17:12.470 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 07:17:12.656 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 07:19:12.290 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/allPrograms
+[INFO ]2023-07-24 07:19:13.866 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 07:19:13.994 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 07:19:16.006 [main]LoggerLoad-****************Program is created valid data*********************
+[INFO ]2023-07-24 07:19:16.055 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:19:16.115 [main]LoggerLoad-*********Header validation for post request**********
+[INFO ]2023-07-24 07:19:16.120 [main]LoggerLoad-statusline
+[INFO ]2023-07-24 07:19:16.159 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/
+[INFO ]2023-07-24 07:19:16.291 [main]LoggerLoad-***user sends the get request by sending the program id***
+[INFO ]2023-07-24 07:19:16.332 [main]LoggerLoad-**************getting the baseurl and endpoint for post to resend the data for negative scenario**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 07:19:16.609 [main]LoggerLoad-****************Sending the request with same data to create should get error 400*********************
+[INFO ]2023-07-24 07:19:16.610 [main]LoggerLoad-Not Successful: 400
+[INFO ]2023-07-24 07:19:16.614 [main]LoggerLoad-*********Header validation for post request**********
+[INFO ]2023-07-24 07:19:16.615 [main]LoggerLoad-statusline
+[INFO ]2023-07-24 07:19:16.645 [main]LoggerLoad-******given with the baseurl and endpoint for update program status with programid*******
+[INFO ]2023-07-24 07:19:16.901 [main]LoggerLoad-****************successfully updated with programid*********************
+[INFO ]2023-07-24 07:19:16.902 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:19:16.926 [main]LoggerLoad-**********Given baseurl and endpoint for update program with name*********
+[INFO ]2023-07-24 07:19:17.194 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-24 07:19:17.195 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:19:17.355 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:19:17.379 [main]LoggerLoad-**************given baseurl and endpoint to delete program with porgram id****************
+[INFO ]2023-07-24 07:19:17.520 [main]LoggerLoad-Not Successful: 400
+[INFO ]2023-07-24 07:19:17.549 [main]LoggerLoad-**************getting the baseurl and endpoint for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+[INFO ]2023-07-24 07:19:17.820 [main]LoggerLoad-****************Program is created with valid data*********************
+[INFO ]2023-07-24 07:19:17.822 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:19:17.852 [main]LoggerLoad-**************getting the end point for post**************https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/
+[INFO ]2023-07-24 07:19:18.158 [main]LoggerLoad-****************batch is created valid data*********************
+[INFO ]2023-07-24 07:19:18.160 [main]LoggerLoad-Post Request Successful
+[INFO ]2023-07-24 07:19:18.392 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-24 07:19:18.414 [main]LoggerLoad-***user sends the get batchid request****https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/batchId/69596959
+[INFO ]2023-07-24 07:19:18.572 [main]LoggerLoad-User gets the batch with batchID :6959
+[INFO ]2023-07-24 07:19:18.576 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 07:19:18.603 [main]LoggerLoad-Usr gets the batch info by batch name24Jul-RestingNinjas-SDET-SDET4870
+[INFO ]2023-07-24 07:19:18.782 [main]LoggerLoad-user sends the get request : 24Jul-RestingNinjas-SDET-SDET4870
+[INFO ]2023-07-24 07:19:18.783 [main]LoggerLoad-asserting the batchID 6959
+[INFO ]2023-07-24 07:19:18.805 [main]LoggerLoad-user send the get request to retrieve batch with programid https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/program/12561
+[INFO ]2023-07-24 07:19:18.925 [main]LoggerLoad-user gets the batch by programid : 12561
+[INFO ]2023-07-24 07:19:18.926 [main]LoggerLoad-asserting the batchID 6959
+[INFO ]2023-07-24 07:19:18.948 [main]LoggerLoad-User is given with the baseurl and update batch endpoint
+[INFO ]2023-07-24 07:19:19.164 [main]LoggerLoad-****************batch is updated*********************
+[INFO ]2023-07-24 07:19:19.166 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
+[INFO ]2023-07-24 07:19:19.353 [main]LoggerLoad-*********Header and statusline and statuscode and responsetime validation**********
