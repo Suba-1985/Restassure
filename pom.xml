@@ -3,7 +3,7 @@
   <groupId>Rest_Assure_Hackathon</groupId>
   <artifactId>Rest_Assure_Hackathon</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <build>
+<build>
 	  
         
     
@@ -238,7 +238,30 @@
 <artifactId>cucumber-testng</artifactId>
 <version>7.13.0</version>
 </dependency>
-
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.0.4</version>
+</dependency>
+<dependency>
+    <groupId>io.qameta.allure</groupId>
+    <artifactId>allure-junit4</artifactId>
+    <version>2.23.0</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.15.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-picocontainer</artifactId>
+			<version>6.8.1</version>
+			<scope>test</scope>
+		</dependency>
 
 <dependency>
     <groupId>org.projectlombok</groupId>

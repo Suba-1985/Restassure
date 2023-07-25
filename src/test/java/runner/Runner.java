@@ -10,15 +10,12 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 
 
-@CucumberOptions(features ={"src/test/resources/featureFiles/01LMS_Program_PS.feature","src/test/resources/featureFiles/02LMS_Batch_PS.feature"}, 
-tags= "",
+@CucumberOptions(features ={"src/test/resources/featureFiles"}, 
+tags= "@schema",
 glue = {"stepDefinition"}, 
-monochrome = true, 
-plugin = {"pretty","html:target/cucumber.html" ,"json:target/cucumber.json"})
-		 
-		// "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
-		
-		//})
+monochrome = false, 
+plugin = {"pretty","html:target/cucumber.html" ,"json:target/cucumber-reports/cucumber.json"
+		})
 
 public class Runner {
 

@@ -60,9 +60,9 @@ public class Config_Reader {
 		}	return postEndPoint;	
 	}
 	
-	public static String getAllEndpoint()
+	public static String getAllEndpoint() throws IOException
 	{   
-		
+		prop=init_prop();
 		String getAllPoint=prop.getProperty("GetAllEndpoint");
 		if(getAllPoint!=null)
 		{
@@ -83,21 +83,24 @@ public class Config_Reader {
 			throw new RuntimeException("GetOneProgramIdEndpoint not specified in the Config.properties file");
 	}
 	
-	public static String putProgramByProgramNameEndpoint() {
+	public static String putProgramByProgramNameEndpoint() throws IOException {
+		prop=init_prop();
 		String putProgramNamePoint = prop.getProperty("PutProgramByProgramNameEndpoint");
 		if (putProgramNamePoint != null)
 			return putProgramNamePoint;
 		else
 			throw new RuntimeException("GetOneProgramIdEndpoint not specified in the Config.properties file");
 	}
-	public static String putProgramByProgramIdEndpoint() {
+	public static String putProgramByProgramIdEndpoint() throws IOException {
+		prop=init_prop();
 		String putbyprogramIdEndPoint = prop.getProperty("PutProgramByProgramIdEndpoint");
 		if ( putbyprogramIdEndPoint != null)
 			return  putbyprogramIdEndPoint;
 		else
 			throw new RuntimeException("GetOneProgramIdEndpoint not specified in the Config.properties file");
 	}
-	public static String deleteprogramByidEndpoint() {
+	public static String deleteprogramByidEndpoint() throws IOException {
+		prop=init_prop();
 		String deletebyidEndPoint = prop.getProperty("DeleteProgramByProgramIdEndpoint");
 		if (deletebyidEndPoint != null)
 			return deletebyidEndPoint;
@@ -126,7 +129,8 @@ public class Config_Reader {
 			System.out.println("Endpoint is not mentioned in config properties");
 		}	return getEndPoint;
 	}
-	public static String testDataResourcePath() {
+	public static String testDataResourcePath() throws IOException {
+		prop=init_prop();
 		String testDataJson = prop.getProperty("testDataResourcePath");
 		if (testDataJson != null)
 			return testDataJson;
@@ -134,7 +138,8 @@ public class Config_Reader {
 			throw new RuntimeException("testDataJson not specified in the Config.properties file");
 	}
 	
-	public static String getallprg() {
+	public static String getallprg() throws IOException {
+		prop=init_prop();
 		String testDataJson1 = prop.getProperty("getallprogram");
 		if (testDataJson1 != null)
 			return testDataJson1;
@@ -142,16 +147,16 @@ public class Config_Reader {
 			throw new RuntimeException("testDataJson1 not specified in the Config.properties file");
 	}
 	
-	public static String excelpath()
-	{
+	public static String excelpath() throws IOException
+	{   prop=init_prop();
 		String excelpath=prop.getProperty("excelpath");
 		if(excelpath != null)
 		return excelpath;
 		else throw new RuntimeException("excelpath not specified in the Config.properties file");			
 	}
-	public static String getBatchbyID()
+	public static String getBatchbyID() throws IOException
 	{   
-		
+		prop=init_prop();
 		String getbatchbyid=prop.getProperty("getBatchbyID");
 		if(getbatchbyid!=null)
 		{
@@ -162,9 +167,9 @@ public class Config_Reader {
 		}	return getbatchbyid;	
 	}
 	
-	public static String getBatchbyName()
+	public static String getBatchbyName() throws IOException
 	{   
-		
+		prop=init_prop();
 		String getbatchbyid=prop.getProperty("getBatchbyName");
 		if(getbatchbyid!=null)
 		{
@@ -176,9 +181,9 @@ public class Config_Reader {
 	}
 	
 	
-	public static String getBatchbyProgramId()
+	public static String getBatchbyProgramId() throws IOException
 	{   
-		
+		prop=init_prop();
 		String getbatchbyid=prop.getProperty("getBatchbyProgramId");
 		if(getbatchbyid!=null)
 		{
@@ -188,5 +193,97 @@ public class Config_Reader {
 			System.out.println("GetAllEndpoint is not mentioned in config properties");
 		}	return getbatchbyid;	
 	}
+	
+	public static String userPostrequestcreatinguserwithrole() throws IOException
+	{   
+		prop=init_prop();
+		String getbatchbyid=prop.getProperty("userpostrequestcreatinguserwithrole");
+		if(getbatchbyid!=null)
+		{
+			return getbatchbyid;
+		}else
+		{
+			System.out.println("GetAllEndpoint is not mentioned in config properties");
+		}	return getbatchbyid;	
+	}
+	public static String userGetAllUsersrequest() throws IOException
+	{   
+		prop=init_prop();
+		String getbatchbyid=prop.getProperty("usergetAllUsersrequest");
+		if(getbatchbyid!=null)
+		{
+			return getbatchbyid;
+		}else
+		{
+			System.out.println("GetAllEndpoint is not mentioned in config properties");
+		}	return getbatchbyid;	
+	}
+	public static String userGetalluserswithroles() throws IOException
+	{   
+		prop=init_prop();
+		String getbatchbyid=prop.getProperty("usergetalluserswithroles");
+		if(getbatchbyid!=null)
+		{
+			return getbatchbyid;
+		}else
+		{
+			System.out.println("GetAllEndpoint is not mentioned in config properties");
+		}	return getbatchbyid;	
+	}
+	
+	public static String userGetallstaff() throws IOException
+	{   
+		prop=init_prop();
+		String getbatchbyid=prop.getProperty("usergetallstaff");
+		if(getbatchbyid!=null)
+		{
+			return getbatchbyid;
+		}else
+		{
+			System.out.println("GetAllEndpoint is not mentioned in config properties");
+		}	return getbatchbyid;	
+	}
+	
+	public static String userUpdateuseruserGetUserinfobyiduserDelete() throws IOException
+	{   
+		prop=init_prop();
+		String getbatchbyid=prop.getProperty("userupdateuserusergetUserinfobyiduserdelete");
+		if(getbatchbyid!=null)
+		{
+			return getbatchbyid;
+		}else
+		{
+			System.out.println("GetAllEndpoint is not mentioned in config properties");
+		}	return getbatchbyid;	
+	}
+	
+	public static String userUpdateuserrolestatus() throws IOException
+	{   
+		prop=init_prop();
+		String getbatchbyid=prop.getProperty("userupdateuserrolestatus");
+		if(getbatchbyid!=null)
+		{
+			return getbatchbyid;
+		}else
+		{
+			System.out.println("GetAllEndpoint is not mentioned in config properties");
+		}	return getbatchbyid;	
+	}
+	
+	public static String assignUpdateuserroleprogrambatchstatus() throws IOException
+	{   prop=init_prop();
+		
+		String getbatchbyid=prop.getProperty("assignupdateuserroleprogrambatchstatus");
+		if(getbatchbyid!=null)
+		{
+			return getbatchbyid;
+		}else
+		{
+			System.out.println("GetAllEndpoint is not mentioned in config properties");
+		}	return getbatchbyid;	
+	}
+	
+	
+	
 	
 	}

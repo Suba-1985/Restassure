@@ -160,7 +160,7 @@ ExcelReader reader = new ExcelReader();
 		
 		return response;
 	}
-	public String invalidpostprogram(String postUri)
+	public String invalidpostprogram(String postUri) throws IOException
 	{
 		JSONObject jsonObjectpost = new JSONObject();
 		jsonObjectpost.put("programDescription",programdescription);
