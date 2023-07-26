@@ -5,11 +5,12 @@ Feature: Test LMS api program module with BaseUrl and Endpoints
   Given User sets Authorization to "No Auth" from program
  	
  
-  @GET_PositiveAllPrograms 
+  @GET_PositiveAllPrograms @schema1
   Scenario: validating User able to retrieve all programs with valid endpoint
     Given User is provided with the BaseUrl and the Endpoints to create a GET request
     When  User send the HTTPsGET request
     Then  User validates the response with Status code "200" and validate schema for all the program 
+    Then User validates the response with Schema validation for all programs
 
   @POST_Positive  @schema
   Scenario Outline: validating User able to create a program with valid endpoint and Payload
@@ -58,14 +59,14 @@ Feature: Test LMS api program module with BaseUrl and Endpoints
 			| user			| 0  |		 
    
     
-  @DELETE_PositiveWithValidProgramName @positive
+  @DELETE_PositiveWithValidProgramName @positive @schema
   Scenario: validating user able to delete a program with valid programName 
     Given User is provided with the BaseUrl and the Endpoints to delete a program with valid programName 
     When User send the HTTPsDELETE request with valid programName
     Then User validates the response with Status code "200"     
  
     
-   @DELETE_PositIveValidProgramID @positive @schema
+   @DELETE_PositIveValidProgramID @positive
   Scenario: validating user able to delete a program with valid programId 
     Given User is provided with the BaseUrl and the Endpoints to delete a program with valid programId 
     When User send the HTTPsDELETE request with valid programId

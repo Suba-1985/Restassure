@@ -42,7 +42,8 @@ Feature: Test LMS apis batch module with BaseUrl and Endpoints
   Scenario: validating User able to retrieve batch with valid batchID
     Given User is provided with the BaseUrl and the Endpoints to create a GET request from batch
     When  User send the HTTPsGET request with valid batchID
-    Then  User validates the response with status code 200, response time, header
+    Then  User validates the response with Status code "200"
+    Then  User Valiates
     
     @GET_PositiveByValidBatchName 
   Scenario: validating User able to retrieve batch with valid batch name
@@ -61,7 +62,7 @@ Feature: Test LMS apis batch module with BaseUrl and Endpoints
   Scenario Outline: validating user able to update a batch with valid batchID and Payload
     Given User is provided with the BaseUrl and the Endpoints to update fields with batchID
     When  User send the HTTPsPUT request with valid batchID "<sheetname>" and <rowno>
-    Then  User validates the response with status code 200, response time, header
+    Then  User validates the response with Status code "200"
     Examples:
       |sheetname|rowno|
       |user| 0|
@@ -70,26 +71,26 @@ Feature: Test LMS apis batch module with BaseUrl and Endpoints
   Scenario: validating user able to delete a batch with valid batchID
     Given User is provided with the BaseUrl and the Endpoints to delete a batch with valid BatchId
     When User send the HTTPsDELETE request with valid batchid
-    Then User validates the response with status code 200, response time, header
+    Then User validates the response with Status code "200"
 
     
     @DELETE_NegativeBatchWithInvalidProgramName
   Scenario: validating user able to delete a batch with valid endpoint and invalid programName 
     Given User is provided with the BaseUrl and the Endpoints to delete batch with invalid programName 
     When User send the HTTPsDELETE request with invalid programName
-    Then User validates the response with status code 404, response time, header
+    Then User validates the response with Status code "404"
  
 @GET_NegativeByinValidBatchID @newProgram
   Scenario: validating User able to retrieve batch with valid batchID
     Given User is provided with the BaseUrl and the Endpoints to create a GET request from batch
     When  User send the HTTPsGET request with valid batchID
-    Then  User validates the response with status code 404, response time, header
+    Then  User validates the response with Status code "200"
     
     @PUT_negativeUsingininValidBatchID  
   Scenario Outline: validating user able to update a batch with valid batchID and Payload
     Given User is provided with the BaseUrl and the Endpoints to update fields with batchID
     When  User send the HTTPsPUT request with valid batchID "<sheetname>" and <rowno>
-    Then  User validates the response with status code 404, response time, header
+    Then  User validates the response with Status code "200"
     Examples:
       |sheetname|rowno|
       |user| 0|

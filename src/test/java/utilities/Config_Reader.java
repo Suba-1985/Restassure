@@ -140,11 +140,11 @@ public class Config_Reader {
 	
 	public static String getallprg() throws IOException {
 		prop=init_prop();
-		String testDataJson1 = prop.getProperty("getallprogram");
+		String testDataJson1 = prop.getProperty("GetAllEndpoint");
 		if (testDataJson1 != null)
 			return testDataJson1;
 		else
-			throw new RuntimeException("testDataJson1 not specified in the Config.properties file");
+			throw new RuntimeException("getallprogram not specified in the Config.properties file");
 	}
 	
 	public static String excelpath() throws IOException
