@@ -14,7 +14,7 @@ import io.cucumber.junit.CucumberOptions;
 tags= "@schema",
 glue = {"stepDefinition"}, 
 monochrome = false, 
-plugin = {"pretty","html:target/cucumber.html" ,"json:target/cucumber-reports/cucumber.json"
+plugin = {"pretty","html:target/cucumber.html" ,"json:target/cucumber.json"
 		})
 
 public class Runner {

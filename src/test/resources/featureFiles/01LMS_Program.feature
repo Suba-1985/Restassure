@@ -16,16 +16,17 @@ Feature: Test LMS api program module with BaseUrl and Endpoints
     Given User is provided with the BaseUrl and endpoint and nonexisting fields in payload
     When  User send the HTTPsPOST request to server with the payload from "<sheetname>" and <rownumber>
     Then  User validates the response with status code "201" from post
-    Then User validates the response with Schema validation
+    
     Examples:
 			| sheetname |rownumber|
 			| user		| 0   |
 			
-	@GET_PositiveByValidProgramID 
+	@GET_PositiveByValidProgramID @schema
   Scenario: validating User able to retrieve program with valid programID
     Given User is provided with the BaseUrl and the Endpoints to create a GET request with valid program id
     When  User send the HTTPsGET request with valid programID
     Then  User validates the response with Status code "200" and schema
+    Then User validates the response with Schema validation
 			
   @POST_NegativeByExistingProgramName 
   Scenario Outline: validating User able to create a program with valid endpoint and existing ProgramName
@@ -64,7 +65,7 @@ Feature: Test LMS api program module with BaseUrl and Endpoints
     Then User validates the response with Status code "200"     
  
     
-   @DELETE_PositIveValidProgramID @positive
+   @DELETE_PositIveValidProgramID @positive @schema
   Scenario: validating user able to delete a program with valid programId 
     Given User is provided with the BaseUrl and the Endpoints to delete a program with valid programId 
     When User send the HTTPsDELETE request with valid programId

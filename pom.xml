@@ -3,93 +3,11 @@
   <groupId>Rest_Assure_Hackathon</groupId>
   <artifactId>Rest_Assure_Hackathon</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-<build>
-	  
-        
-    
-	 <plugins>
-	
-			
-			    
-			   <!-- <plugin>
-			
-			    <groupId>org.apache.maven.plugins</groupId>
-			    <artifactId>maven-surefire-plugin</artifactId>
-			    <version>3.0.0</version>
-	      		<configuration>
-					  <includes>
-							<include>C:/Users/subas/Rest-Assure-Hackathon/Rest_Assure_Hackathon/src/test/java/runner/Runner</include>
-						</includes>
-            	</configuration>
-		</plugin>      		-->
-			    
-		
-		<!--<plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-surefire-plugin</artifactId>
-    <version>3.0.0</version>
-    <configuration>
-		
-		<suiteXmlFiles>
-		<suiteXMLFile>testng.xml</suiteXMLFile>		
-		</suiteXmlFiles>
-	</configuration>
-</plugin>-->
-		<!--<plugin>
-			
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.0</version>
-			<configuration>
-          	<source>11</source>
-          	<target>11</target>
-        	</configuration>
-			</plugin>-->
-			
-			<plugin>
-            <artifactId>maven-clean-plugin</artifactId>
-            <version>3.1.0</version>
-            <executions>
-              <execution>
-                    <id>clean-allure-results</id>
-                    <phase>clean</phase>
-                    <goals>
-                        <goal>clean</goal>
-                    </goals>
-                    <configuration>
-                        <filesets>
-                            <fileset>
-                                <directory>Rest_Assure_Hackathon\allure-results</directory>
-                            </fileset>
-                        </filesets>
-                    </configuration>
-                </execution>
-            </executions>
-        </plugin>
-        <plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-surefire-plugin</artifactId>
-    <version>3.0.0</version>
-    <configuration>		
-		<suiteXmlFiles>
-		<suiteXMLFile>${SuiteFileName}</suiteXMLFile>		
-		</suiteXmlFiles>
-	</configuration>
-</plugin>
-		<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.10.1</version>
-			<configuration>
-          	<source>11</source>
-          	<target>11</target>
-        	</configuration>
-			</plugin>
-			
-			
-	</plugins>
-</build>
-  
+<properties>
+<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+<maven.compiler.source>1.8</maven.compiler.source>
+<maven.compiler.target>1.8</maven.compiler.target>
+</properties>
   <dependencies>
 	  
 	  <dependency>

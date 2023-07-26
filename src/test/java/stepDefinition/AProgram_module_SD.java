@@ -101,10 +101,10 @@ public class AProgram_module_SD {
 //              .setDefaultVersion(SchemaVersion.DRAFTV4).freeze())
 //                .freeze();
 //     response.then().assertThat().body(matchesJsonSchemaInClasspath("C:/Users/subas/Rest-Assure-Hackathon/Rest_Assure_Hackathon/target/classes/PostProgramSchema").using(jsonSchemaFactory));
-        
-     String responseBody=response.getBody().asString();
- 		assertThat(responseBody,matchesJsonSchemaInClasspath("PostProgramSchema"));  
-            
+        System.out.println(postURI);
+    // String responseBody=response.getBody().asString();
+ 	//	assertThat(responseBody,JsonSchemaValidator.matchesJsonSchemaInClasspath("PostProgramSchema"));  
+          given().get(postURI).then().assertThat().body(matchesJsonSchemaInClasspath("getprogrambyid.json"));
 		
 	}
 	

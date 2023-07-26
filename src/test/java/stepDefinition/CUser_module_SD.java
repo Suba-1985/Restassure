@@ -3,10 +3,10 @@ package stepDefinition;
 import static io.restassured.RestAssured.when;
 
 import java.io.IOException;
+import java.text.ParseException;
 import java.util.Properties;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
-import org.json.simple.parser.ParseException;
 import org.testng.Assert;
 
 import io.cucumber.java.en.Given;
@@ -94,7 +94,7 @@ public class CUser_module_SD {
 	
 
 	@When("User tries to create User with the mentioned Roles {string} and {int}")
-	public void user_tries_to_create_user_with_the_mentioned_roles(String SheetName,Integer rownumber) throws InvalidFormatException, IOException, ParseException {
+	public void user_tries_to_create_user_with_the_mentioned_roles(String SheetName,Integer rownumber) throws InvalidFormatException, IOException, ParseException, org.json.simple.parser.ParseException {
 		userModule.getDatafromExcel(SheetName, rownumber);
 	    response=userModule.postuser(postURI);
 	}
