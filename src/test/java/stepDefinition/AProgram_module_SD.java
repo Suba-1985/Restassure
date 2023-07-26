@@ -74,8 +74,7 @@ public class AProgram_module_SD {
     	 testdata = reader.getData(Config_Reader.excelpath(), SheetName);
 		String programdescription = testdata.get(rowno).get("programDescription");	
 		String progname= testdata.get(rowno).get("programName");
-		String progstatus= testdata.get(rowno).get("programStatus");	
-		
+		String progstatus= testdata.get(rowno).get("programStatus");			
 		JSONObject jsonObject = new JSONObject();
 		String s = RandomStringUtils.randomNumeric(3); 
 		String programNamestr=progname+s;		
